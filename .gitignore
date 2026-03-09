@@ -1,22 +1,11 @@
 # Dependencies
 node_modules/
+package.json
+package-lock.json
 
 # Build output
 dist/
 *.tsbuildinfo
-
-# User data (private)
-data/learner-state.json
-data/learner-state.json.bak
-data/sessions/*.json
-data/confusions.json
-
-# Backups (created by Makefile)
-backups/
-
-# Logs
-*.log
-npm-debug.log*
 
 # OS files
 .DS_Store
@@ -28,3 +17,7 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# Local Claude settings (personal, not for publishing)
+.claude/settings.local.json
+.claude/session-memory.md
