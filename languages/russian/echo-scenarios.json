@@ -71,7 +71,7 @@
       "seed_phrase": "Я бы хоте́л зака́зать борщ и хлеб.",
       "seed_meaning": "Literally: I would like to order borscht and bread. Natural: I'd like to order borscht and bread.",
       "substitutions": [
-        "Я бы хоте́ла зака́зать са́лат и суп.",
+        "Я бы хоте́л зака́зать суп дня.",
         "Я бы хоте́л зака́зать пи́ццу без мя́са.",
         "Я бы хоте́л зака́зать ры́бу с карто́фелем."
       ],
@@ -129,8 +129,8 @@
       "seed_meaning": "Literally: I want to check in for the flight to Moscow. Natural: I'd like to check in for my flight to Moscow.",
       "substitutions": [
         "Я хочу́ зарегистри́роваться на рейс в Санкт-Петербу́рг.",
-        "Я хочу́ поменя́ть ме́сто на бо́лее удо́бное.",
-        "Я хочу́ сдать чемода́н в бага́ж."
+        "Я хочу́ зарегистри́роваться на рейс в Новосиби́рск.",
+        "Я хочу́ зарегистри́роваться на рейс в Екатеринбу́рг."
       ],
       "vocabulary": [
         "ре́йс — flight",
@@ -163,12 +163,12 @@
       "title": "Introducing Yourself",
       "level": "B1",
       "tags": ["social"],
-      "seed_phrase": "Приятно познако́миться. Я рабо́таю програ́ммистом уже́ пять лет.",
+      "seed_phrase": "Прия́тно познако́миться. Я рабо́таю програ́ммистом уже́ пять лет.",
       "seed_meaning": "Literally: Nice to meet you. I work as a programmer already five years. Natural: Nice to meet you. I've been working as a programmer for five years.",
       "substitutions": [
-        "Приятно познако́миться. Я рабо́таю врачо́м уже́ де́сять лет.",
-        "Приятно познако́миться. Я изуча́ю ру́сский язы́к уже́ два го́да.",
-        "Приятно познако́миться. Я живу́ в Москве́ уже́ три го́да."
+        "Прия́тно познако́миться. Я рабо́таю врачо́м уже́ де́сять лет.",
+        "Прия́тно познако́миться. Я изуча́ю ру́сский язы́к уже́ два го́да.",
+        "Прия́тно познако́миться. Я живу́ в Москве́ уже́ три го́да."
       ],
       "vocabulary": [
         "познако́миться — to get acquainted / meet",
