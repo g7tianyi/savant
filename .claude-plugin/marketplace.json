@@ -1,17 +1,21 @@
 {
+  "name": "g7tianyi-savant",
+  "owner": {
+    "name": "g7tianyi"
+  },
+  "metadata": {
+    "description": "Savant — multi-language language learning plugin",
+    "version": "0.1.0"
+  },
   "plugins": [
     {
-      "id": "savant",
-      "name": "Savant",
-      "description": "Multi-language language learning plugin. Spaced repetition vocabulary (words mode) and FSI conversational training (echo mode). Ships with Russian; extensible to any language.",
-      "version": "0.1.0",
-      "skills": [
-        {
-          "name": "savant",
-          "file": "skills/savant.md",
-          "description": "Language learning session. Usage: /savant {language} {mode} — e.g. /savant russian words, /savant russian echo"
-        }
-      ]
+      "name": "savant",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/g7tianyi/savant.git"
+      },
+      "description": "Multi-language language learning: spaced repetition vocabulary (words mode) and FSI conversational training (echo mode). Ships with Russian; extensible to any language. Usage: /savant {language} {mode}",
+      "version": "0.1.0"
     }
   ]
 }

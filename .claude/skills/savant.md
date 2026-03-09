@@ -1,1 +1,1 @@
-../skills/savant.md
+../../skills/savant/SKILL.md

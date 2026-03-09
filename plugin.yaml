@@ -7,7 +7,7 @@ description: >
 
 skills:
   - name: savant
-    file: skills/savant.md
+    file: skills/savant/SKILL.md
     description: >
       Language learning session. Usage: /savant {language} {mode}
       Modes: words (spaced repetition), echo (FSI conversational)
