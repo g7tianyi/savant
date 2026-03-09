@@ -9,7 +9,7 @@ Handles all languages and modes (words, echo).
 
 Usage:
   state_manager.py init-session <lang> <mode> [count]
-  state_manager.py update <lang> words <item_id> <correct> <confidence>
+  state_manager.py update <lang> <item_type> <item_id> <correct> <confidence>
   state_manager.py log-vocab <lang> echo <word>
   state_manager.py finalize <lang> <mode> <session_id> [scenario_id]
   state_manager.py stats <lang> <mode>
@@ -253,15 +253,15 @@ if __name__ == "__main__":
     elif cmd == "update":
         if len(args) < 6:
             usage()
-        lang, mode, item_id = args[1], args[2], args[3]
+        lang, item_type, item_id = args[1], args[2], args[3]
         validate_lang(lang)
-        if mode == "words":
+        if item_type in ("words", "concepts"):
             correct = args[4].lower() == "true"
             confidence = int(args[5])
-            update_words(lang, item_id, "words", correct, confidence)
-            print(f"Updated {lang}/words: {item_id}")
+            update_words(lang, item_id, item_type, correct, confidence)
+            print(f"Updated {lang}/{item_type}: {item_id}")
         else:
-            print(f"'update' is for words mode. Use 'log-vocab' for echo.", file=sys.stderr)
+            print(f"Unknown item_type: {item_type}. Use 'words' or 'concepts'.", file=sys.stderr)
             sys.exit(1)
 
     elif cmd == "log-vocab":

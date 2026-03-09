@@ -89,6 +89,16 @@ def test_stats_words(tmp_path):
     assert "total_sessions" in data
     print("PASS: test_stats_words")
 
+def test_update_concepts(tmp_path):
+    env = {"SAVANT_STATE_DIR": str(tmp_path)}
+    result = run(["update", "russian", "concepts", "genitive-possession", "true", "70"], env)
+    assert result.returncode == 0, result.stderr
+    state_file = tmp_path / "russian-words-state.json"
+    state = json.loads(state_file.read_text())
+    assert "genitive-possession" in state["concepts"]
+    assert state["concepts"]["genitive-possession"]["mastery"] > 0
+    print("PASS: test_update_concepts")
+
 if __name__ == "__main__":
     import tempfile
     with tempfile.TemporaryDirectory() as tmp:
@@ -100,4 +110,5 @@ if __name__ == "__main__":
         test_log_vocab(tmp_path)
         test_missing_language(tmp_path)
         test_stats_words(tmp_path)
+        test_update_concepts(tmp_path)
         print("\nAll tests passed.")

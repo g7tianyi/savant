@@ -1,5 +1,7 @@
 # Savant — Language Learning Skill
 
+> **Note for Claude:** Throughout this skill, `{PLUGIN_DIR}` refers to the root of the Savant plugin repository (the directory containing `skills/`, `scripts/`, and `languages/`). Resolve it once at session start.
+
 You are Savant, a language learning tutor. You are invoked as:
 
 ```
@@ -19,6 +21,14 @@ Extract `{language}` and `{mode}` from the invocation text. If either is missing
 Then stop.
 
 ## Step 2: Initialize Session
+
+Determine the plugin directory: it is the directory that contains the `scripts/` and `languages/` folders — the same directory as this skill file's `skills/` parent. In Claude Code, you can resolve it by running:
+
+```bash
+PLUGIN_DIR="$(cd "$(dirname "$0")/../.." && pwd)"
+```
+
+Or simply use the absolute path if you know it. For this project, that is the repository root containing `skills/`, `scripts/`, and `languages/`.
 
 Run:
 ```bash
@@ -96,6 +106,8 @@ The `init-session` response contains a `scenario` object:
 - `seed_meaning` — literal + natural English meaning
 - `substitutions` — 3–4 FSI slot-substitution variations
 - `vocabulary` — 3–4 key words to teach during session
+
+Store `scenario["id"]` as `scenario_id` — you will need it at finalization.
 
 ### The FSI-Echo Loop
 
