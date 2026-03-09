@@ -1,0 +1,733 @@
+{
+  "meta": {
+    "domain": "russian",
+    "focus": "A2→B1 practical conversation grammar",
+    "total_concepts": 42,
+    "generated": "2026-03-07"
+  },
+  "concepts": {
+    "genitive-possession": {
+      "id": "genitive-possession",
+      "name": "Genitive Case: Possession",
+      "level": "A2",
+      "category": "grammar",
+      "prerequisites": ["nominative-case"],
+      "description": "Using genitive case with 'у' to express possession (У меня есть..., У него нет...)",
+      "examples": [
+        "У меня есть книга (I have a book)",
+        "У неё нет машины (She doesn't have a car)",
+        "У друга есть собака (My friend has a dog)"
+      ],
+      "drills": [
+        "Translate: I don't have time → У меня нет времени",
+        "Create a sentence using 'у + genitive' for possession",
+        "Correct: У меня нет время → У меня нет времени"
+      ]
+    },
+    "genitive-negation": {
+      "id": "genitive-negation",
+      "name": "Genitive Case: Negation",
+      "level": "A2",
+      "category": "grammar",
+      "prerequisites": ["genitive-possession"],
+      "description": "Genitive required after 'нет' (negation of existence)",
+      "examples": [
+        "Здесь нет воды (There's no water here)",
+        "У меня нет денег (I don't have money)",
+        "Дома никого нет (Nobody's home)"
+      ],
+      "drills": [
+        "Translate: There's no milk → Нет молока",
+        "Explain why genitive after 'нет'",
+        "Transform: У меня есть машина → У меня нет машины"
+      ]
+    },
+    "genitive-quantity": {
+      "id": "genitive-quantity",
+      "name": "Genitive Case: Quantity",
+      "level": "A2",
+      "category": "grammar",
+      "prerequisites": ["genitive-possession"],
+      "description": "Genitive after numbers 5+, много, мало, несколько, сколько",
+      "examples": [
+        "пять книг (five books)",
+        "много людей (many people)",
+        "мало времени (little time)",
+        "сколько денег? (how much money?)"
+      ],
+      "drills": [
+        "Fill blank: У меня ___ (пять/книга) → пять книг",
+        "Explain: Why 'два студента' but 'пять студентов'?",
+        "Translate: many books → много книг"
+      ]
+    },
+    "accusative-direction": {
+      "id": "accusative-direction",
+      "name": "Accusative Case: Direction",
+      "level": "A2",
+      "category": "grammar",
+      "prerequisites": ["nominative-case"],
+      "description": "Accusative with в/на for direction (going TO a place)",
+      "examples": [
+        "Я иду в город (I'm going to the city)",
+        "Он едет на работу (He's going to work)",
+        "Мы идём в кино (We're going to the cinema)"
+      ],
+      "drills": [
+        "Compare: в городе (prepositional) vs в город (accusative)",
+        "Translate: I'm going to the store → Я иду в магазин",
+        "Choose case: Я иду (в/на) школа → в школу"
+      ]
+    },
+    "prepositional-location": {
+      "id": "prepositional-location",
+      "name": "Prepositional Case: Location",
+      "level": "A2",
+      "category": "grammar",
+      "prerequisites": ["accusative-direction"],
+      "description": "Prepositional with в/на for location (being AT/IN a place)",
+      "examples": [
+        "Я в городе (I'm in the city)",
+        "Он на работе (He's at work)",
+        "Книга на столе (The book is on the table)"
+      ],
+      "drills": [
+        "Contrast: в город (accusative) vs в городе (prepositional)",
+        "Translate: I'm at work → Я на работе",
+        "Explain: в университете vs на факультете (why different prepositions?)"
+      ]
+    },
+    "dative-indirect-object": {
+      "id": "dative-indirect-object",
+      "name": "Dative Case: Indirect Object",
+      "level": "A2",
+      "category": "grammar",
+      "prerequisites": ["nominative-case"],
+      "description": "Dative for indirect objects (to whom? for whom?)",
+      "examples": [
+        "Я даю другу книгу (I give a book to my friend)",
+        "Он звонит маме (He's calling mom)",
+        "Она помогает сестре (She helps her sister)"
+      ],
+      "drills": [
+        "Translate: I'm calling my friend → Я звоню другу",
+        "Create sentence with 'давать + dative'",
+        "Identify dative: Я помогаю брату"
+      ]
+    },
+    "instrumental-accompaniment": {
+      "id": "instrumental-accompaniment",
+      "name": "Instrumental Case: With/By",
+      "level": "A2",
+      "category": "grammar",
+      "prerequisites": ["nominative-case"],
+      "description": "Instrumental with 'с' (with), by instrument/means",
+      "examples": [
+        "Я иду с другом (I'm going with a friend)",
+        "Он пишет ручкой (He writes with a pen)",
+        "Она работает учителем (She works as a teacher)"
+      ],
+      "drills": [
+        "Translate: I'm going with my sister → Я иду с сестрой",
+        "Explain instrumental in: Она работает врачом",
+        "Create sentence using 'с + instrumental'"
+      ]
+    },
+    "verb-aspects-intro": {
+      "id": "verb-aspects-intro",
+      "name": "Verb Aspects: Perfective vs Imperfective",
+      "level": "A2",
+      "category": "grammar",
+      "prerequisites": [],
+      "description": "Understanding perfective (completed action) vs imperfective (process/repeated action)",
+      "examples": [
+        "Я читал книгу (I was reading - imperfective process)",
+        "Я прочитал книгу (I read/finished the book - perfective result)",
+        "Он писал письмо (He was writing)",
+        "Он написал письмо (He wrote/completed the letter)"
+      ],
+      "drills": [
+        "Explain difference: читать vs прочитать",
+        "Choose aspect: Вчера я (читал/прочитал) книгу за 2 часа → прочитал",
+        "Translate: I was writing a letter (process) → Я писал письмо"
+      ]
+    },
+    "verb-aspects-past": {
+      "id": "verb-aspects-past",
+      "name": "Verb Aspects in Past Tense",
+      "level": "B1",
+      "category": "grammar",
+      "prerequisites": ["verb-aspects-intro"],
+      "description": "Choosing correct aspect in past tense narratives",
+      "examples": [
+        "Я делал уроки два часа (I did homework for 2 hours - duration)",
+        "Я сделал уроки (I finished homework - result)",
+        "Мы смотрели фильм, когда он пришёл (watched - background, came - event)"
+      ],
+      "drills": [
+        "Narrate: Yesterday I (делал/сделал) homework and then went out",
+        "Explain: Я писал письмо час vs Я написал письмо за час",
+        "Fill blank: Вчера весь день я ___ (читать) книгу → читал"
+      ]
+    },
+    "verb-aspects-future": {
+      "id": "verb-aspects-future",
+      "name": "Verb Aspects in Future Tense",
+      "level": "B1",
+      "category": "grammar",
+      "prerequisites": ["verb-aspects-past"],
+      "description": "Future tense with буду + imperfective vs perfective simple future",
+      "examples": [
+        "Я буду читать книгу (I will be reading)",
+        "Я прочитаю книгу (I will read/finish the book)",
+        "Завтра я буду работать (I'll be working - process)",
+        "Завтра я сделаю работу (I'll finish the work - result)"
+      ],
+      "drills": [
+        "Contrast: Я буду писать vs Я напишу",
+        "Translate: I will finish my homework tomorrow → Я сделаю уроки завтра",
+        "Choose: Завтра я (буду читать/прочитаю) книгу весь день"
+      ]
+    },
+    "motion-verbs-unidirectional": {
+      "id": "motion-verbs-unidirectional",
+      "name": "Motion Verbs: Unidirectional (идти/ехать)",
+      "level": "A2",
+      "category": "grammar",
+      "prerequisites": [],
+      "description": "Unidirectional motion verbs for one-time, one-direction movement NOW",
+      "examples": [
+        "Я иду домой (I'm going home now)",
+        "Он едет на работу (He's going to work now)",
+        "Мы идём в кино (We're going to the cinema now)"
+      ],
+      "drills": [
+        "Translate: I'm going to the store (right now) → Я иду в магазин",
+        "Conjugate: идти (я, ты, он)",
+        "Create sentence using 'ехать' for current motion"
+      ]
+    },
+    "motion-verbs-multidirectional": {
+      "id": "motion-verbs-multidirectional",
+      "name": "Motion Verbs: Multidirectional (ходить/ездить)",
+      "level": "A2",
+      "category": "grammar",
+      "prerequisites": ["motion-verbs-unidirectional"],
+      "description": "Multidirectional for repeated/habitual motion or back-and-forth",
+      "examples": [
+        "Я хожу в школу каждый день (I go to school every day)",
+        "Он ездит на работу на метро (He commutes to work by metro)",
+        "Мы часто ходим в кино (We often go to the cinema)"
+      ],
+      "drills": [
+        "Contrast: Я иду в школу (now) vs Я хожу в школу (regularly)",
+        "Translate: I go to work every day → Я хожу на работу каждый день",
+        "Explain: When to use ходить vs идти?"
+      ]
+    },
+    "motion-verbs-prefixed": {
+      "id": "motion-verbs-prefixed",
+      "name": "Motion Verbs: Prefixed (прийти, уйти, войти)",
+      "level": "B1",
+      "category": "grammar",
+      "prerequisites": ["motion-verbs-multidirectional"],
+      "description": "Prefixed motion verbs for direction and aspect",
+      "examples": [
+        "Я приду в 5 часов (I'll come/arrive at 5)",
+        "Он ушёл час назад (He left an hour ago)",
+        "Мы вошли в комнату (We entered the room)",
+        "Она выйдет из дома (She'll go out of the house)"
+      ],
+      "drills": [
+        "Match prefix: при- (toward), у- (away), в- (into), вы- (out of)",
+        "Translate: He came yesterday → Он пришёл вчера",
+        "Create sentence using 'уйти' (past tense)"
+      ]
+    },
+    "imperatives-formal": {
+      "id": "imperatives-formal",
+      "name": "Imperative Mood: Formal (вы)",
+      "level": "A2",
+      "category": "grammar",
+      "prerequisites": [],
+      "description": "Forming formal commands/requests",
+      "examples": [
+        "Скажите, пожалуйста (Please tell me)",
+        "Помогите мне (Help me)",
+        "Извините (Excuse me)",
+        "Послушайте (Listen)"
+      ],
+      "drills": [
+        "Form imperative: говорить → Говорите!",
+        "Translate polite request: Please help → Помогите, пожалуйста",
+        "Create formal command from: читать → Читайте!"
+      ]
+    },
+    "imperatives-informal": {
+      "id": "imperatives-informal",
+      "name": "Imperative Mood: Informal (ты)",
+      "level": "A2",
+      "category": "grammar",
+      "prerequisites": ["imperatives-formal"],
+      "description": "Forming informal commands to friends",
+      "examples": [
+        "Скажи мне (Tell me)",
+        "Помоги (Help)",
+        "Иди сюда (Come here)",
+        "Читай (Read)"
+      ],
+      "drills": [
+        "Form imperative: говорить → Говори!",
+        "Contrast: Скажите (formal) vs Скажи (informal)",
+        "Give informal command: Listen → Слушай!"
+      ]
+    },
+    "reflexive-verbs": {
+      "id": "reflexive-verbs",
+      "name": "Reflexive Verbs (-ся/-сь)",
+      "level": "A2",
+      "category": "grammar",
+      "prerequisites": [],
+      "description": "Verbs with reflexive particle -ся/-сь",
+      "examples": [
+        "Я учусь в университете (I study at university)",
+        "Он называется Иван (He's called Ivan / His name is Ivan)",
+        "Она одевается (She's getting dressed)",
+        "Мы встречаемся (We're meeting / We meet)"
+      ],
+      "drills": [
+        "Conjugate: учиться (я, ты, он)",
+        "Explain difference: мыть vs мыться",
+        "Translate: We're meeting at 5 → Мы встречаемся в 5"
+      ]
+    },
+    "time-expressions-when": {
+      "id": "time-expressions-when",
+      "name": "Time Expressions: When (days, clock)",
+      "level": "A2",
+      "category": "grammar",
+      "prerequisites": [],
+      "description": "Expressing time: days of week, clock time",
+      "examples": [
+        "в понедельник (on Monday)",
+        "в три часа (at 3 o'clock)",
+        "в январе (in January)",
+        "утром (in the morning - instrumental)"
+      ],
+      "drills": [
+        "Translate: On Wednesday → в среду",
+        "Express time: At 5 o'clock → в пять часов",
+        "Explain case: утром (instrumental) vs в понедельник (accusative)"
+      ]
+    },
+    "time-expressions-duration": {
+      "id": "time-expressions-duration",
+      "name": "Time Expressions: Duration",
+      "level": "B1",
+      "category": "grammar",
+      "prerequisites": ["time-expressions-when"],
+      "description": "How long (accusative for duration)",
+      "examples": [
+        "Я работал два часа (I worked for 2 hours)",
+        "Он жил в Москве год (He lived in Moscow for a year)",
+        "Мы учились всю неделю (We studied all week)"
+      ],
+      "drills": [
+        "Translate: I studied for 3 hours → Я учился три часа",
+        "Explain accusative: Я читал книгу час",
+        "Create sentence: duration + accusative"
+      ]
+    },
+    "time-expressions-within": {
+      "id": "time-expressions-within",
+      "name": "Time Expressions: Completion Within Time",
+      "level": "B1",
+      "category": "grammar",
+      "prerequisites": ["time-expressions-duration"],
+      "description": "Completed within time frame: за + accusative (requires perfective)",
+      "examples": [
+        "Я прочитал книгу за час (I read the book in an hour)",
+        "Он сделал работу за день (He did the work in a day)",
+        "Мы приехали за 10 минут (We arrived in 10 minutes)"
+      ],
+      "drills": [
+        "Contrast: Я читал час (duration) vs Я прочитал за час (completion)",
+        "Translate: I finished in 2 hours → Я закончил за два часа",
+        "Explain why perfective required with 'за + time'"
+      ]
+    },
+    "comparatives-adjectives": {
+      "id": "comparatives-adjectives",
+      "name": "Comparatives: Adjectives",
+      "level": "B1",
+      "category": "grammar",
+      "prerequisites": [],
+      "description": "Comparative forms: -ее/-ей or более",
+      "examples": [
+        "Эта книга интереснее (This book is more interesting)",
+        "Он старше меня (He's older than me)",
+        "Москва больше Санкт-Петербурга (Moscow is bigger than St. Petersburg)",
+        "более интересный (more interesting - long form)"
+      ],
+      "drills": [
+        "Form comparative: интересный → интереснее",
+        "Translate: bigger → больше",
+        "Compare: Москва ___ (большой) Лондона → больше"
+      ]
+    },
+    "superlatives": {
+      "id": "superlatives",
+      "name": "Superlatives",
+      "level": "B1",
+      "category": "grammar",
+      "prerequisites": ["comparatives-adjectives"],
+      "description": "Superlative forms: самый + adjective",
+      "examples": [
+        "самый большой город (the biggest city)",
+        "самая интересная книга (the most interesting book)",
+        "самое важное (the most important thing)"
+      ],
+      "drills": [
+        "Form superlative: интересный → самый интересный",
+        "Translate: the most beautiful → самый красивый",
+        "Create sentence: the best friend → самый лучший друг"
+      ]
+    },
+    "conditional-real": {
+      "id": "conditional-real",
+      "name": "Conditional: Real (если + present/future)",
+      "level": "B1",
+      "category": "grammar",
+      "prerequisites": [],
+      "description": "Real conditions: If X happens, then Y",
+      "examples": [
+        "Если будет хорошая погода, мы пойдём гулять (If weather is good, we'll go for a walk)",
+        "Если ты хочешь, можешь прийти (If you want, you can come)",
+        "Если я куплю билет, поеду в Москву (If I buy a ticket, I'll go to Moscow)"
+      ],
+      "drills": [
+        "Translate: If you come, I'll be happy → Если ты придёшь, я буду рад",
+        "Create condition: если + future tense",
+        "Explain: Why perfective after 'если' in future contexts?"
+      ]
+    },
+    "conditional-unreal": {
+      "id": "conditional-unreal",
+      "name": "Conditional: Unreal (бы)",
+      "level": "B1",
+      "category": "grammar",
+      "prerequisites": ["conditional-real"],
+      "description": "Hypothetical/contrary-to-fact: если бы + past tense",
+      "examples": [
+        "Если бы я знал, я бы пришёл (If I had known, I would have come)",
+        "Если бы у меня были деньги, я бы купил машину (If I had money, I would buy a car)",
+        "Я бы хотел (I would like)"
+      ],
+      "drills": [
+        "Translate: If I had time, I would read → Если бы у меня было время, я бы читал",
+        "Explain 'бы' particle placement",
+        "Create hypothetical: If I were rich..."
+      ]
+    },
+    "reported-speech": {
+      "id": "reported-speech",
+      "name": "Reported Speech (что)",
+      "level": "B1",
+      "category": "grammar",
+      "prerequisites": [],
+      "description": "Indirect speech with 'что' (that)",
+      "examples": [
+        "Он сказал, что приду́ завтра (He said that he'll come tomorrow)",
+        "Я думаю, что это правда (I think that it's true)",
+        "Она знает, что я работаю (She knows that I work)"
+      ],
+      "drills": [
+        "Transform: Он: 'Я приду' → Он сказал, что придёт",
+        "Translate indirect: She said she's tired → Она сказала, что устала",
+        "Report: 'Я не знаю' → Он сказал, что не знает"
+      ]
+    },
+    "purpose-clauses": {
+      "id": "purpose-clauses",
+      "name": "Purpose Clauses (чтобы)",
+      "level": "B1",
+      "category": "grammar",
+      "prerequisites": [],
+      "description": "Expressing purpose: чтобы + past tense",
+      "examples": [
+        "Я учусь, чтобы работать (I study in order to work)",
+        "Он пришёл, чтобы помочь (He came to help)",
+        "Скажи, чтобы он пришёл (Tell him to come)"
+      ],
+      "drills": [
+        "Translate: I came to help → Я пришёл, чтобы помочь",
+        "Explain: Why past tense after 'чтобы'?",
+        "Create purpose clause: study → learn Russian"
+      ]
+    },
+    "negation-double": {
+      "id": "negation-double",
+      "name": "Double Negation (никогда не, никто не)",
+      "level": "A2",
+      "category": "grammar",
+      "prerequisites": [],
+      "description": "Russian requires double negation with negative words",
+      "examples": [
+        "Я никогда не был в Москве (I've never been to Moscow)",
+        "Никто не знает (Nobody knows)",
+        "Ничего не понимаю (I don't understand anything)",
+        "Нигде нет (Nowhere / There isn't anywhere)"
+      ],
+      "drills": [
+        "Translate: I never read → Я никогда не читаю",
+        "Correct: Никто знает → Никто не знает",
+        "Explain why double negation is required"
+      ]
+    },
+    "short-adjectives": {
+      "id": "short-adjectives",
+      "name": "Short Adjectives (рад, должен, готов)",
+      "level": "A2",
+      "category": "grammar",
+      "prerequisites": [],
+      "description": "Predicative short-form adjectives",
+      "examples": [
+        "Я рад (I'm glad - masculine)",
+        "Она рада (She's glad - feminine)",
+        "Он должен работать (He must work)",
+        "Мы готовы (We're ready)",
+        "Я занят (I'm busy)"
+      ],
+      "drills": [
+        "Decline: рад (masculine, feminine, neuter, plural)",
+        "Translate: I'm ready → Я готов (m) / Я готова (f)",
+        "Use 'должен': I must go → Я должен идти"
+      ]
+    },
+    "possessives": {
+      "id": "possessives",
+      "name": "Possessive Pronouns (мой, твой, наш, ваш)",
+      "level": "A1",
+      "category": "grammar",
+      "prerequisites": [],
+      "description": "Possessive pronouns agreeing with gender/number/case",
+      "examples": [
+        "мой брат (my brother - masculine nominative)",
+        "моя сестра (my sister - feminine nominative)",
+        "моё окно (my window - neuter nominative)",
+        "мои друзья (my friends - plural)",
+        "у моего брата (genitive masculine)"
+      ],
+      "drills": [
+        "Decline: мой (masculine, feminine, neuter, plural nominative)",
+        "Genitive: у ___ (мой) друга → моего",
+        "Translate: my book → моя книга"
+      ]
+    },
+    "demonstratives": {
+      "id": "demonstratives",
+      "name": "Demonstratives (этот, тот)",
+      "level": "A2",
+      "category": "grammar",
+      "prerequisites": [],
+      "description": "This/that with gender/case agreement",
+      "examples": [
+        "этот дом (this house - masculine)",
+        "эта книга (this book - feminine)",
+        "это окно (this window - neuter)",
+        "эти люди (these people - plural)",
+        "тот человек (that person)"
+      ],
+      "drills": [
+        "Decline: этот (all genders nominative)",
+        "Choose: ___ (этот) книга → эта",
+        "Translate: that car → та машина"
+      ]
+    },
+    "verbs-of-motion-summary": {
+      "id": "verbs-of-motion-summary",
+      "name": "Summary: Verbs of Motion System",
+      "level": "B1",
+      "category": "grammar",
+      "prerequisites": ["motion-verbs-prefixed"],
+      "description": "Complete system: unidirectional/multidirectional/prefixed",
+      "examples": [
+        "идти/ходить (walk): Я иду (now), Я хожу (regularly)",
+        "ехать/ездить (ride): Я еду (now), Я езжу (regularly)",
+        "Prefixed: прийти (come), уйти (leave), войти (enter), выйти (exit)",
+        "нести/носить (carry): Я несу (now), Я ношу (regularly)"
+      ],
+      "drills": [
+        "Choose: Я сейчас (иду/хожу) домой → иду",
+        "Choose: Я каждый день (иду/хожу) в школу → хожу",
+        "Translate: He entered the room → Он вошёл в комнату"
+      ]
+    },
+    "aspect-pairs-common": {
+      "id": "aspect-pairs-common",
+      "name": "Common Aspectual Pairs",
+      "level": "B1",
+      "category": "grammar",
+      "prerequisites": ["verb-aspects-future"],
+      "description": "Memorizing key imperfective/perfective pairs",
+      "examples": [
+        "делать/сделать (do/make)",
+        "читать/прочитать (read)",
+        "писать/написать (write)",
+        "говорить/сказать (speak/say - suppletive pair)",
+        "брать/взять (take - suppletive pair)",
+        "класть/положить (put - suppletive pair)"
+      ],
+      "drills": [
+        "Give perfective: говорить → сказать",
+        "Give imperfective: понять → понимать",
+        "Identify suppletive pairs (different roots)"
+      ]
+    },
+    "participles-present-active": {
+      "id": "participles-present-active",
+      "name": "Present Active Participles (-ущий/-ющий)",
+      "level": "B1",
+      "category": "grammar",
+      "prerequisites": [],
+      "description": "Adjectives formed from verbs (who is doing X)",
+      "examples": [
+        "работающий человек (working person)",
+        "говорящий по-русски (speaking Russian)",
+        "студент, изучающий русский язык (student studying Russian)"
+      ],
+      "drills": [
+        "Form participle: работать → работающий",
+        "Translate: reading student → читающий студент",
+        "Use in sentence: говорить → говорящий"
+      ]
+    },
+    "participles-past-passive": {
+      "id": "participles-past-passive",
+      "name": "Past Passive Participles (-нный/-тый)",
+      "level": "B1",
+      "category": "grammar",
+      "prerequisites": [],
+      "description": "Adjectives for things that have been done",
+      "examples": [
+        "написанная книга (written book)",
+        "прочитанная статья (read article)",
+        "открытое окно (opened window)"
+      ],
+      "drills": [
+        "Form participle: написать → написанный",
+        "Translate: closed door → закрытая дверь",
+        "Use: купить → купленный"
+      ]
+    },
+    "verbal-adverbs-imperfective": {
+      "id": "verbal-adverbs-imperfective",
+      "name": "Verbal Adverbs: Imperfective (-я/-а)",
+      "level": "B1",
+      "category": "grammar",
+      "prerequisites": [],
+      "description": "While doing X (simultaneous action)",
+      "examples": [
+        "Читая книгу, он слушал музыку (While reading, he listened to music)",
+        "Говоря по-русски, думай по-русски (When speaking Russian, think in Russian)",
+        "Работая, он думал о доме (While working, he thought about home)"
+      ],
+      "drills": [
+        "Form: читать → читая",
+        "Translate: While eating, he watched TV → Кушая, он смотрел телевизор",
+        "Use говорить in verbal adverb form"
+      ]
+    },
+    "verbal-adverbs-perfective": {
+      "id": "verbal-adverbs-perfective",
+      "name": "Verbal Adverbs: Perfective (-в/-вши)",
+      "level": "B1",
+      "category": "grammar",
+      "prerequisites": ["verbal-adverbs-imperfective"],
+      "description": "After doing X (sequential action)",
+      "examples": [
+        "Прочитав книгу, он пошёл спать (After reading the book, he went to sleep)",
+        "Закончив работу, она вышла (Having finished work, she left)",
+        "Встав, он оделся (After getting up, he got dressed)"
+      ],
+      "drills": [
+        "Form: прочитать → прочитав",
+        "Translate: After eating, he left → Поев, он ушёл",
+        "Create sentence with: написав"
+      ]
+    },
+    "degrees-of-comparison": {
+      "id": "degrees-of-comparison",
+      "name": "Degrees of Comparison Summary",
+      "level": "B1",
+      "category": "grammar",
+      "prerequisites": ["comparatives-adjectives", "superlatives"],
+      "description": "Complete system: positive, comparative, superlative",
+      "examples": [
+        "большой → больше → самый большой (big → bigger → biggest)",
+        "хороший → лучше → самый лучший/лучший (good → better → best)",
+        "интересный → интереснее → самый интересный"
+      ],
+      "drills": [
+        "Give all forms: интересный → интереснее → самый интересный",
+        "Irregular: хороший → ? → ?",
+        "Compare two objects using comparative"
+      ]
+    },
+    "impersonal-constructions": {
+      "id": "impersonal-constructions",
+      "name": "Impersonal Constructions (мне холодно, etc.)",
+      "level": "A2",
+      "category": "grammar",
+      "prerequisites": [],
+      "description": "Dative + predicate (no subject)",
+      "examples": [
+        "Мне холодно (I'm cold / It's cold for me)",
+        "Ему скучно (He's bored)",
+        "Нам интересно (We're interested / It's interesting to us)",
+        "Мне нужно идти (I need to go)"
+      ],
+      "drills": [
+        "Translate: I'm hot → Мне жарко",
+        "Form: He's bored → Ему скучно",
+        "Explain dative case in: Мне холодно"
+      ]
+    },
+    "reciprocal-constructions": {
+      "id": "reciprocal-constructions",
+      "name": "Reciprocal: друг друга",
+      "level": "B1",
+      "category": "grammar",
+      "prerequisites": [],
+      "description": "Each other: друг друга (declines for case)",
+      "examples": [
+        "Мы любим друг друга (We love each other - accusative)",
+        "Они помогают друг другу (They help each other - dative)",
+        "Мы говорим друг с другом (We talk with each other - instrumental)"
+      ],
+      "drills": [
+        "Translate: They see each other → Они видят друг друга",
+        "Dative: They give each other gifts → Они дарят друг другу подарки",
+        "Create sentence with 'друг друга'"
+      ]
+    }
+  },
+  "progression": {
+    "genitive-possession": ["genitive-negation", "genitive-quantity"],
+    "genitive-negation": ["negation-double"],
+    "accusative-direction": ["prepositional-location"],
+    "prepositional-location": ["time-expressions-when"],
+    "verb-aspects-intro": ["verb-aspects-past", "verb-aspects-future"],
+    "verb-aspects-past": ["aspect-pairs-common"],
+    "verb-aspects-future": ["aspect-pairs-common"],
+    "motion-verbs-unidirectional": ["motion-verbs-multidirectional"],
+    "motion-verbs-multidirectional": ["motion-verbs-prefixed"],
+    "motion-verbs-prefixed": ["verbs-of-motion-summary"],
+    "time-expressions-when": ["time-expressions-duration"],
+    "time-expressions-duration": ["time-expressions-within"],
+    "comparatives-adjectives": ["superlatives", "degrees-of-comparison"],
+    "conditional-real": ["conditional-unreal"],
+    "imperatives-formal": ["imperatives-informal"],
+    "verbal-adverbs-imperfective": ["verbal-adverbs-perfective"]
+  }
+}

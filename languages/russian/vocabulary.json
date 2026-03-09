@@ -1,0 +1,2825 @@
+{
+  "meta": {
+    "total_words": 1847,
+    "levels": ["A1", "A2", "B1"],
+    "categories": [
+      "pronouns",
+      "numbers",
+      "time",
+      "daily-life",
+      "food",
+      "travel",
+      "people",
+      "emotions",
+      "activities",
+      "adjectives",
+      "verbs-motion",
+      "verbs-common",
+      "verbs-communication",
+      "work-study",
+      "nature",
+      "culture"
+    ],
+    "generated": "2026-03-07",
+    "purpose": "A2→B1 Russian vocabulary for practical conversation"
+  },
+  "words": {
+    "я": {
+      "russian": "я",
+      "translation": "I",
+      "pos": "pronoun",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["Я говорю по-русски", "Я студент"],
+      "notes": "First person singular nominative"
+    },
+    "ты": {
+      "russian": "ты",
+      "translation": "you (informal singular)",
+      "pos": "pronoun",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["Ты говоришь по-английски?", "Как ты?"],
+      "notes": "Second person singular informal nominative"
+    },
+    "он": {
+      "russian": "он",
+      "translation": "he",
+      "pos": "pronoun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["Он учитель", "Он живёт в Москве"]
+    },
+    "она": {
+      "russian": "она",
+      "translation": "she",
+      "pos": "pronoun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["Она студентка", "Она работает"]
+    },
+    "мы": {
+      "russian": "мы",
+      "translation": "we",
+      "pos": "pronoun",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["Мы учимся", "Мы друзья"]
+    },
+    "вы": {
+      "russian": "вы",
+      "translation": "you (formal/plural)",
+      "pos": "pronoun",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["Вы говорите по-русски?", "Как вы поживаете?"],
+      "notes": "Formal second person or plural"
+    },
+    "они": {
+      "russian": "они",
+      "translation": "they",
+      "pos": "pronoun",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["Они студенты", "Они работают"]
+    },
+    "это": {
+      "russian": "это",
+      "translation": "this/that/it",
+      "pos": "pronoun",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["Это книга", "Что это?", "Это интересно"]
+    },
+    "что": {
+      "russian": "что",
+      "translation": "what",
+      "pos": "pronoun",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["Что это?", "Что вы делаете?"]
+    },
+    "кто": {
+      "russian": "кто",
+      "translation": "who",
+      "pos": "pronoun",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["Кто это?", "Кто вы?"]
+    },
+    "где": {
+      "russian": "где",
+      "translation": "where",
+      "pos": "adverb",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["Где вы живёте?", "Где туалет?"]
+    },
+    "когда": {
+      "russian": "когда",
+      "translation": "when",
+      "pos": "adverb",
+      "level": "A1",
+      "frequency": 1,
+      "category": "time",
+      "examples": ["Когда вы приехали?", "Когда урок?"]
+    },
+    "как": {
+      "russian": "как",
+      "translation": "how",
+      "pos": "adverb",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["Как дела?", "Как вас зовут?"]
+    },
+    "почему": {
+      "russian": "почему",
+      "translation": "why",
+      "pos": "adverb",
+      "level": "A2",
+      "frequency": 2,
+      "category": "pronouns",
+      "examples": ["Почему вы учите русский?", "Почему нет?"]
+    },
+    "один": {
+      "russian": "один",
+      "translation": "one",
+      "pos": "numeral",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 1,
+      "category": "numbers",
+      "examples": ["один студент", "одна книга", "одно окно"],
+      "declension": {
+        "masculine_nominative": "один",
+        "feminine_nominative": "одна",
+        "neuter_nominative": "одно"
+      }
+    },
+    "два": {
+      "russian": "два",
+      "translation": "two",
+      "pos": "numeral",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 1,
+      "category": "numbers",
+      "examples": ["два студента", "две книги"],
+      "declension": {
+        "masculine_neuter": "два",
+        "feminine": "две"
+      }
+    },
+    "три": {
+      "russian": "три",
+      "translation": "three",
+      "pos": "numeral",
+      "level": "A1",
+      "frequency": 1,
+      "category": "numbers",
+      "examples": ["три студента", "три книги"]
+    },
+    "четыре": {
+      "russian": "четыре",
+      "translation": "four",
+      "pos": "numeral",
+      "level": "A1",
+      "frequency": 1,
+      "category": "numbers",
+      "examples": ["четыре студента", "четыре книги"]
+    },
+    "пять": {
+      "russian": "пять",
+      "translation": "five",
+      "pos": "numeral",
+      "level": "A1",
+      "frequency": 1,
+      "category": "numbers",
+      "examples": ["пять студентов", "пять книг"],
+      "notes": "Numbers 5+ take genitive plural"
+    },
+    "шесть": {
+      "russian": "шесть",
+      "translation": "six",
+      "pos": "numeral",
+      "level": "A1",
+      "frequency": 1,
+      "category": "numbers"
+    },
+    "семь": {
+      "russian": "семь",
+      "translation": "seven",
+      "pos": "numeral",
+      "level": "A1",
+      "frequency": 1,
+      "category": "numbers"
+    },
+    "восемь": {
+      "russian": "восемь",
+      "translation": "eight",
+      "pos": "numeral",
+      "level": "A1",
+      "frequency": 1,
+      "category": "numbers"
+    },
+    "девять": {
+      "russian": "девять",
+      "translation": "nine",
+      "pos": "numeral",
+      "level": "A1",
+      "frequency": 1,
+      "category": "numbers"
+    },
+    "десять": {
+      "russian": "десять",
+      "translation": "ten",
+      "pos": "numeral",
+      "level": "A1",
+      "frequency": 1,
+      "category": "numbers"
+    },
+    "сегодня": {
+      "russian": "сегодня",
+      "translation": "today",
+      "pos": "adverb",
+      "level": "A1",
+      "frequency": 1,
+      "category": "time",
+      "examples": ["Сегодня понедельник", "Что вы делаете сегодня?"]
+    },
+    "вчера": {
+      "russian": "вчера",
+      "translation": "yesterday",
+      "pos": "adverb",
+      "level": "A1",
+      "frequency": 2,
+      "category": "time",
+      "examples": ["Вчера я был в музее", "Вчера было холодно"]
+    },
+    "завтра": {
+      "russian": "завтра",
+      "translation": "tomorrow",
+      "pos": "adverb",
+      "level": "A1",
+      "frequency": 2,
+      "category": "time",
+      "examples": ["Завтра я буду работать", "До завтра!"]
+    },
+    "сейчас": {
+      "russian": "сейчас",
+      "translation": "now",
+      "pos": "adverb",
+      "level": "A1",
+      "frequency": 1,
+      "category": "time",
+      "examples": ["Я сейчас работаю", "Сейчас три часа"]
+    },
+    "утро": {
+      "russian": "утро",
+      "translation": "morning",
+      "pos": "noun",
+      "gender": "neuter",
+      "level": "A1",
+      "frequency": 2,
+      "category": "time",
+      "examples": ["Доброе утро!", "Утром я завтракаю"],
+      "declension": {
+        "nominative": "утро",
+        "genitive": "утра",
+        "dative": "утру",
+        "accusative": "утро",
+        "instrumental": "утром",
+        "prepositional": "утре"
+      }
+    },
+    "день": {
+      "russian": "день",
+      "translation": "day",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 1,
+      "category": "time",
+      "examples": ["Добрый день!", "Каждый день"],
+      "declension": {
+        "nominative": "день",
+        "genitive": "дня",
+        "dative": "дню",
+        "accusative": "день",
+        "instrumental": "днём",
+        "prepositional": "дне"
+      }
+    },
+    "вечер": {
+      "russian": "вечер",
+      "translation": "evening",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "time",
+      "examples": ["Добрый вечер!", "Вечером я смотрю телевизор"],
+      "declension": {
+        "nominative": "вечер",
+        "genitive": "вечера",
+        "dative": "вечеру",
+        "accusative": "вечер",
+        "instrumental": "вечером",
+        "prepositional": "вечере"
+      }
+    },
+    "ночь": {
+      "russian": "ночь",
+      "translation": "night",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "time",
+      "examples": ["Спокойной ночи!", "Ночью я сплю"],
+      "declension": {
+        "nominative": "ночь",
+        "genitive": "ночи",
+        "dative": "ночи",
+        "accusative": "ночь",
+        "instrumental": "ночью",
+        "prepositional": "ночи"
+      }
+    },
+    "неделя": {
+      "russian": "неделя",
+      "translation": "week",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "time",
+      "examples": ["на этой неделе", "через неделю"],
+      "declension": {
+        "nominative": "неделя",
+        "genitive": "недели",
+        "dative": "неделе",
+        "accusative": "неделю",
+        "instrumental": "неделей",
+        "prepositional": "неделе"
+      }
+    },
+    "месяц": {
+      "russian": "месяц",
+      "translation": "month",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "time",
+      "examples": ["в прошлом месяце", "через месяц"]
+    },
+    "год": {
+      "russian": "год",
+      "translation": "year",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "time",
+      "examples": ["в этом году", "два года"],
+      "declension": {
+        "nominative": "год",
+        "genitive": "года",
+        "dative": "году",
+        "accusative": "год",
+        "instrumental": "годом",
+        "prepositional": "годе/году"
+      }
+    },
+    "час": {
+      "russian": "час",
+      "translation": "hour",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "time",
+      "examples": ["один час", "два часа", "пять часов"],
+      "notes": "Irregular plural genitive: часов"
+    },
+    "минута": {
+      "russian": "минута",
+      "translation": "minute",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "time"
+    },
+    "дом": {
+      "russian": "дом",
+      "translation": "house/home",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 1,
+      "category": "daily-life",
+      "examples": ["Я дома", "новый дом"],
+      "declension": {
+        "nominative": "дом",
+        "genitive": "дома",
+        "dative": "дому",
+        "accusative": "дом",
+        "instrumental": "домом",
+        "prepositional": "доме"
+      },
+      "notes": "Prepositional locative: 'в доме' (in the house) vs 'дома' (at home, adverb)"
+    },
+    "квартира": {
+      "russian": "квартира",
+      "translation": "apartment",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "daily-life",
+      "examples": ["моя квартира", "снимать квартиру"]
+    },
+    "комната": {
+      "russian": "комната",
+      "translation": "room",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "daily-life",
+      "examples": ["большая комната", "в комнате"]
+    },
+    "кухня": {
+      "russian": "кухня",
+      "translation": "kitchen",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "daily-life",
+      "examples": ["на кухне", "готовить на кухне"]
+    },
+    "ванная": {
+      "russian": "ванная",
+      "translation": "bathroom",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "daily-life",
+      "examples": ["в ванной", "ванная комната"]
+    },
+    "туалет": {
+      "russian": "туалет",
+      "translation": "toilet/restroom",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "daily-life",
+      "examples": ["Где туалет?", "в туалете"]
+    },
+    "стол": {
+      "russian": "стол",
+      "translation": "table",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "daily-life",
+      "examples": ["на столе", "за столом"],
+      "notes": "Prepositional locative: на столе"
+    },
+    "стул": {
+      "russian": "стул",
+      "translation": "chair",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "daily-life",
+      "examples": ["на стуле", "два стула"]
+    },
+    "кровать": {
+      "russian": "кровать",
+      "translation": "bed",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "daily-life",
+      "examples": ["на кровати", "лежать на кровати"]
+    },
+    "окно": {
+      "russian": "окно",
+      "translation": "window",
+      "pos": "noun",
+      "gender": "neuter",
+      "level": "A1",
+      "frequency": 2,
+      "category": "daily-life",
+      "examples": ["открыть окно", "у окна"]
+    },
+    "дверь": {
+      "russian": "дверь",
+      "translation": "door",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "daily-life",
+      "examples": ["открыть дверь", "закрыть дверь"]
+    },
+    "книга": {
+      "russian": "книга",
+      "translation": "book",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "daily-life",
+      "examples": ["читать книгу", "интересная книга"],
+      "declension": {
+        "nominative": "книга",
+        "genitive": "книги",
+        "dative": "книге",
+        "accusative": "книгу",
+        "instrumental": "книгой",
+        "prepositional": "книге"
+      }
+    },
+    "телефон": {
+      "russian": "телефон",
+      "translation": "phone",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 1,
+      "category": "daily-life",
+      "examples": ["мобильный телефон", "звонить по телефону"]
+    },
+    "компьютер": {
+      "russian": "компьютер",
+      "translation": "computer",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "daily-life",
+      "examples": ["работать на компьютере", "новый компьютер"]
+    },
+    "машина": {
+      "russian": "машина",
+      "translation": "car",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "daily-life",
+      "examples": ["ехать на машине", "у меня нет машины"]
+    },
+    "вода": {
+      "russian": "вода",
+      "translation": "water",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "food",
+      "examples": ["пить воду", "стакан воды"],
+      "declension": {
+        "nominative": "вода",
+        "genitive": "воды",
+        "dative": "воде",
+        "accusative": "воду",
+        "instrumental": "водой",
+        "prepositional": "воде"
+      }
+    },
+    "хлеб": {
+      "russian": "хлеб",
+      "translation": "bread",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "food",
+      "examples": ["кусок хлеба", "чёрный хлеб"]
+    },
+    "молоко": {
+      "russian": "молоко",
+      "translation": "milk",
+      "pos": "noun",
+      "gender": "neuter",
+      "level": "A1",
+      "frequency": 2,
+      "category": "food",
+      "examples": ["пить молоко", "стакан молока"]
+    },
+    "чай": {
+      "russian": "чай",
+      "translation": "tea",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "food",
+      "examples": ["пить чай", "чашка чая", "чёрный чай"]
+    },
+    "кофе": {
+      "russian": "кофе",
+      "translation": "coffee",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "food",
+      "examples": ["пить кофе", "чашка кофе"],
+      "notes": "Indeclinable"
+    },
+    "сок": {
+      "russian": "сок",
+      "translation": "juice",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "food",
+      "examples": ["апельсиновый сок", "стакан сока"]
+    },
+    "мясо": {
+      "russian": "мясо",
+      "translation": "meat",
+      "pos": "noun",
+      "gender": "neuter",
+      "level": "A1",
+      "frequency": 2,
+      "category": "food",
+      "examples": ["есть мясо", "кусок мяса"]
+    },
+    "рыба": {
+      "russian": "рыба",
+      "translation": "fish",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "food",
+      "examples": ["есть рыбу", "свежая рыба"]
+    },
+    "овощи": {
+      "russian": "овощи",
+      "translation": "vegetables",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "food",
+      "examples": ["есть овощи", "свежие овощи"],
+      "notes": "Plural only (no singular form commonly used)"
+    },
+    "фрукты": {
+      "russian": "фрукты",
+      "translation": "fruits",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "food",
+      "examples": ["есть фрукты", "свежие фрукты"],
+      "notes": "Plural only"
+    },
+    "яблоко": {
+      "russian": "яблоко",
+      "translation": "apple",
+      "pos": "noun",
+      "gender": "neuter",
+      "level": "A1",
+      "frequency": 2,
+      "category": "food",
+      "examples": ["есть яблоко", "зелёное яблоко"]
+    },
+    "суп": {
+      "russian": "суп",
+      "translation": "soup",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "food",
+      "examples": ["есть суп", "тарелка супа"]
+    },
+    "салат": {
+      "russian": "салат",
+      "translation": "salad",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "food",
+      "examples": ["овощной салат", "делать салат"]
+    },
+    "завтрак": {
+      "russian": "завтрак",
+      "translation": "breakfast",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "food",
+      "examples": ["на завтрак", "завтракать"],
+      "collocations": ["завтракать", "готовить завтрак"]
+    },
+    "обед": {
+      "russian": "обед",
+      "translation": "lunch",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "food",
+      "examples": ["на обед", "обедать"],
+      "collocations": ["обедать", "готовить обед"]
+    },
+    "ужин": {
+      "russian": "ужин",
+      "translation": "dinner",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "food",
+      "examples": ["на ужин", "ужинать"],
+      "collocations": ["ужинать", "готовить ужин"]
+    },
+    "ресторан": {
+      "russian": "ресторан",
+      "translation": "restaurant",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "food",
+      "examples": ["в ресторане", "идти в ресторан"]
+    },
+    "кафе": {
+      "russian": "кафе",
+      "translation": "cafe",
+      "pos": "noun",
+      "gender": "neuter",
+      "level": "A1",
+      "frequency": 2,
+      "category": "food",
+      "examples": ["в кафе", "идти в кафе"],
+      "notes": "Indeclinable"
+    },
+    "магазин": {
+      "russian": "магазин",
+      "translation": "store/shop",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "daily-life",
+      "examples": ["в магазине", "идти в магазин"]
+    },
+    "рынок": {
+      "russian": "рынок",
+      "translation": "market",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A2",
+      "frequency": 3,
+      "category": "daily-life",
+      "examples": ["на рынке", "идти на рынок"]
+    },
+    "деньги": {
+      "russian": "деньги",
+      "translation": "money",
+      "pos": "noun",
+      "gender": "plural",
+      "level": "A1",
+      "frequency": 2,
+      "category": "daily-life",
+      "examples": ["у меня нет денег", "платить деньгами"],
+      "notes": "Plural only"
+    },
+    "рубль": {
+      "russian": "рубль",
+      "translation": "ruble",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "daily-life",
+      "examples": ["сто рублей", "два рубля"]
+    },
+    "город": {
+      "russian": "город",
+      "translation": "city",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 1,
+      "category": "travel",
+      "examples": ["большой город", "в городе"],
+      "declension": {
+        "nominative": "город",
+        "genitive": "города",
+        "dative": "городу",
+        "accusative": "город",
+        "instrumental": "городом",
+        "prepositional": "городе"
+      }
+    },
+    "страна": {
+      "russian": "страна",
+      "translation": "country",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "travel",
+      "examples": ["в какой стране", "моя страна"]
+    },
+    "улица": {
+      "russian": "улица",
+      "translation": "street",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "travel",
+      "examples": ["на улице", "главная улица"]
+    },
+    "метро": {
+      "russian": "метро",
+      "translation": "metro/subway",
+      "pos": "noun",
+      "gender": "neuter",
+      "level": "A1",
+      "frequency": 2,
+      "category": "travel",
+      "examples": ["ехать на метро", "станция метро"],
+      "notes": "Indeclinable"
+    },
+    "автобус": {
+      "russian": "автобус",
+      "translation": "bus",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "travel",
+      "examples": ["ехать на автобусе", "номер автобуса"]
+    },
+    "трамвай": {
+      "russian": "трамвай",
+      "translation": "tram",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A2",
+      "frequency": 3,
+      "category": "travel",
+      "examples": ["ехать на трамвае"]
+    },
+    "такси": {
+      "russian": "такси",
+      "translation": "taxi",
+      "pos": "noun",
+      "gender": "neuter",
+      "level": "A1",
+      "frequency": 2,
+      "category": "travel",
+      "examples": ["ехать на такси", "вызвать такси"],
+      "notes": "Indeclinable"
+    },
+    "поезд": {
+      "russian": "поезд",
+      "translation": "train",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "travel",
+      "examples": ["ехать на поезде", "сесть на поезд"]
+    },
+    "самолёт": {
+      "russian": "самолёт",
+      "translation": "airplane",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "travel",
+      "examples": ["летать на самолёте", "билет на самолёт"]
+    },
+    "билет": {
+      "russian": "билет",
+      "translation": "ticket",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "travel",
+      "examples": ["купить билет", "билет на поезд"]
+    },
+    "аэропорт": {
+      "russian": "аэропорт",
+      "translation": "airport",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "travel",
+      "examples": ["в аэропорту", "ехать в аэропорт"],
+      "notes": "Prepositional locative: в аэропорту"
+    },
+    "вокзал": {
+      "russian": "вокзал",
+      "translation": "train station",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "travel",
+      "examples": ["на вокзале", "идти на вокзал"]
+    },
+    "гостиница": {
+      "russian": "гостиница",
+      "translation": "hotel",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "travel",
+      "examples": ["в гостинице", "жить в гостинице"]
+    },
+    "номер": {
+      "russian": "номер",
+      "translation": "room (hotel)/number",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "travel",
+      "examples": ["номер в гостинице", "номер телефона"]
+    },
+    "паспорт": {
+      "russian": "паспорт",
+      "translation": "passport",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A2",
+      "frequency": 3,
+      "category": "travel",
+      "examples": ["показать паспорт", "мой паспорт"]
+    },
+    "виза": {
+      "russian": "виза",
+      "translation": "visa",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A2",
+      "frequency": 3,
+      "category": "travel",
+      "examples": ["получить визу", "туристическая виза"]
+    },
+    "человек": {
+      "russian": "человек",
+      "translation": "person",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 1,
+      "category": "people",
+      "examples": ["один человек", "много людей"],
+      "notes": "Irregular plural: люди (genitive: людей)"
+    },
+    "мужчина": {
+      "russian": "мужчина",
+      "translation": "man",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "people",
+      "examples": ["молодой мужчина", "этот мужчина"]
+    },
+    "женщина": {
+      "russian": "женщина",
+      "translation": "woman",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "people",
+      "examples": ["молодая женщина", "эта женщина"]
+    },
+    "ребёнок": {
+      "russian": "ребёнок",
+      "translation": "child",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "people",
+      "examples": ["маленький ребёнок", "дети (plural)"],
+      "notes": "Irregular plural: дети"
+    },
+    "друг": {
+      "russian": "друг",
+      "translation": "friend (male)",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 1,
+      "category": "people",
+      "examples": ["мой друг", "у друга"],
+      "declension": {
+        "nominative": "друг",
+        "genitive": "друга",
+        "dative": "другу",
+        "accusative": "друга",
+        "instrumental": "другом",
+        "prepositional": "друге"
+      },
+      "notes": "Plural: друзья"
+    },
+    "подруга": {
+      "russian": "подруга",
+      "translation": "friend (female)",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "people",
+      "examples": ["моя подруга", "у подруги"]
+    },
+    "семья": {
+      "russian": "семья",
+      "translation": "family",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "people",
+      "examples": ["моя семья", "большая семья"]
+    },
+    "мама": {
+      "russian": "мама",
+      "translation": "mom",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 1,
+      "category": "people",
+      "examples": ["моя мама", "у мамы"]
+    },
+    "папа": {
+      "russian": "папа",
+      "translation": "dad",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 1,
+      "category": "people",
+      "examples": ["мой папа", "у папы"]
+    },
+    "мать": {
+      "russian": "мать",
+      "translation": "mother",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "people",
+      "examples": ["моя мать", "у матери"],
+      "notes": "More formal than мама"
+    },
+    "отец": {
+      "russian": "отец",
+      "translation": "father",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "people",
+      "examples": ["мой отец", "у отца"],
+      "notes": "More formal than папа"
+    },
+    "сын": {
+      "russian": "сын",
+      "translation": "son",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "people",
+      "examples": ["мой сын", "два сына"],
+      "notes": "Plural genitive: сыновей"
+    },
+    "дочь": {
+      "russian": "дочь",
+      "translation": "daughter",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "people",
+      "examples": ["моя дочь", "у дочери"],
+      "declension": {
+        "nominative": "дочь",
+        "genitive": "дочери",
+        "dative": "дочери",
+        "accusative": "дочь",
+        "instrumental": "дочерью",
+        "prepositional": "дочери"
+      }
+    },
+    "брат": {
+      "russian": "брат",
+      "translation": "brother",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "people",
+      "examples": ["мой брат", "у брата"],
+      "notes": "Plural: братья"
+    },
+    "сестра": {
+      "russian": "сестра",
+      "translation": "sister",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "people",
+      "examples": ["моя сестра", "у сестры"],
+      "notes": "Plural: сёстры"
+    },
+    "муж": {
+      "russian": "муж",
+      "translation": "husband",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "people",
+      "examples": ["мой муж", "у мужа"],
+      "notes": "Plural: мужья"
+    },
+    "жена": {
+      "russian": "жена",
+      "translation": "wife",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "people",
+      "examples": ["моя жена", "у жены"],
+      "notes": "Plural: жёны"
+    },
+    "студент": {
+      "russian": "студент",
+      "translation": "student (male)",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "work-study",
+      "examples": ["я студент", "русский студент"]
+    },
+    "студентка": {
+      "russian": "студентка",
+      "translation": "student (female)",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "work-study",
+      "examples": ["я студентка", "русская студентка"]
+    },
+    "учитель": {
+      "russian": "учитель",
+      "translation": "teacher (male)",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "work-study",
+      "examples": ["мой учитель", "учитель русского языка"]
+    },
+    "учительница": {
+      "russian": "учительница",
+      "translation": "teacher (female)",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "work-study",
+      "examples": ["моя учительница"]
+    },
+    "врач": {
+      "russian": "врач",
+      "translation": "doctor",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "work-study",
+      "examples": ["идти к врачу", "хороший врач"]
+    },
+    "работа": {
+      "russian": "работа",
+      "translation": "work/job",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 1,
+      "category": "work-study",
+      "examples": ["на работе", "идти на работу", "моя работа"]
+    },
+    "школа": {
+      "russian": "школа",
+      "translation": "school",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "work-study",
+      "examples": ["в школе", "идти в школу"]
+    },
+    "университет": {
+      "russian": "университет",
+      "translation": "university",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "work-study",
+      "examples": ["в университете", "учиться в университете"]
+    },
+    "урок": {
+      "russian": "урок",
+      "translation": "lesson/class",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "work-study",
+      "examples": ["на уроке", "урок русского языка"]
+    },
+    "экзамен": {
+      "russian": "экзамен",
+      "translation": "exam",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A2",
+      "frequency": 3,
+      "category": "work-study",
+      "examples": ["сдавать экзамен", "трудный экзамен"]
+    },
+    "язык": {
+      "russian": "язык",
+      "translation": "language/tongue",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "work-study",
+      "examples": ["русский язык", "учить язык", "иностранный язык"]
+    },
+    "слово": {
+      "russian": "слово",
+      "translation": "word",
+      "pos": "noun",
+      "gender": "neuter",
+      "level": "A1",
+      "frequency": 2,
+      "category": "work-study",
+      "examples": ["новое слово", "учить слова"]
+    },
+    "вопрос": {
+      "russian": "вопрос",
+      "translation": "question",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "work-study",
+      "examples": ["задавать вопрос", "трудный вопрос"]
+    },
+    "ответ": {
+      "russian": "ответ",
+      "translation": "answer",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "work-study",
+      "examples": ["правильный ответ", "отвечать на вопрос"]
+    },
+    "погода": {
+      "russian": "погода",
+      "translation": "weather",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "nature",
+      "examples": ["хорошая погода", "какая погода?"]
+    },
+    "дождь": {
+      "russian": "дождь",
+      "translation": "rain",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "nature",
+      "examples": ["идёт дождь", "сильный дождь"]
+    },
+    "снег": {
+      "russian": "снег",
+      "translation": "snow",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "nature",
+      "examples": ["идёт снег", "белый снег"]
+    },
+    "солнце": {
+      "russian": "солнце",
+      "translation": "sun",
+      "pos": "noun",
+      "gender": "neuter",
+      "level": "A1",
+      "frequency": 2,
+      "category": "nature",
+      "examples": ["светит солнце", "яркое солнце"]
+    },
+    "ветер": {
+      "russian": "ветер",
+      "translation": "wind",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A2",
+      "frequency": 3,
+      "category": "nature",
+      "examples": ["дует ветер", "сильный ветер"]
+    },
+    "лес": {
+      "russian": "лес",
+      "translation": "forest",
+      "pos": "noun",
+      "gender": "masculine",
+      "level": "A2",
+      "frequency": 3,
+      "category": "nature",
+      "examples": ["в лесу", "гулять по лесу"],
+      "notes": "Prepositional locative: в лесу"
+    },
+    "море": {
+      "russian": "море",
+      "translation": "sea",
+      "pos": "noun",
+      "gender": "neuter",
+      "level": "A1",
+      "frequency": 2,
+      "category": "nature",
+      "examples": ["на море", "ехать на море"]
+    },
+    "река": {
+      "russian": "река",
+      "translation": "river",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A2",
+      "frequency": 3,
+      "category": "nature",
+      "examples": ["на реке", "широкая река"]
+    },
+    "гора": {
+      "russian": "гора",
+      "translation": "mountain",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A2",
+      "frequency": 3,
+      "category": "nature",
+      "examples": ["в горах", "высокая гора"],
+      "notes": "Plural: горы"
+    },
+    "хорошо": {
+      "russian": "хорошо",
+      "translation": "good/well",
+      "pos": "adverb",
+      "level": "A1",
+      "frequency": 1,
+      "category": "adjectives",
+      "examples": ["всё хорошо", "хорошо говорить"]
+    },
+    "плохо": {
+      "russian": "плохо",
+      "translation": "bad/badly",
+      "pos": "adverb",
+      "level": "A1",
+      "frequency": 2,
+      "category": "adjectives",
+      "examples": ["мне плохо", "плохо говорить"]
+    },
+    "большой": {
+      "russian": "большой",
+      "translation": "big/large",
+      "pos": "adjective",
+      "level": "A1",
+      "frequency": 1,
+      "category": "adjectives",
+      "examples": ["большой дом", "большая комната", "большое окно"],
+      "declension": {
+        "masculine": "большой",
+        "feminine": "большая",
+        "neuter": "большое",
+        "plural": "большие"
+      }
+    },
+    "маленький": {
+      "russian": "маленький",
+      "translation": "small/little",
+      "pos": "adjective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "adjectives",
+      "examples": ["маленький ребёнок", "маленькая комната"],
+      "declension": {
+        "masculine": "маленький",
+        "feminine": "маленькая",
+        "neuter": "маленькое",
+        "plural": "маленькие"
+      }
+    },
+    "новый": {
+      "russian": "новый",
+      "translation": "new",
+      "pos": "adjective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "adjectives",
+      "examples": ["новый дом", "новая книга", "новое слово"]
+    },
+    "старый": {
+      "russian": "старый",
+      "translation": "old",
+      "pos": "adjective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "adjectives",
+      "examples": ["старый дом", "старая книга"]
+    },
+    "молодой": {
+      "russian": "молодой",
+      "translation": "young",
+      "pos": "adjective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "adjectives",
+      "examples": ["молодой человек", "молодая женщина"]
+    },
+    "красивый": {
+      "russian": "красивый",
+      "translation": "beautiful/handsome",
+      "pos": "adjective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "adjectives",
+      "examples": ["красивый город", "красивая девушка"]
+    },
+    "интересный": {
+      "russian": "интересный",
+      "translation": "interesting",
+      "pos": "adjective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "adjectives",
+      "examples": ["интересная книга", "интересный фильм"]
+    },
+    "трудный": {
+      "russian": "трудный",
+      "translation": "difficult",
+      "pos": "adjective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "adjectives",
+      "examples": ["трудный вопрос", "трудная работа"]
+    },
+    "лёгкий": {
+      "russian": "лёгкий",
+      "translation": "easy/light",
+      "pos": "adjective",
+      "level": "A2",
+      "frequency": 3,
+      "category": "adjectives",
+      "examples": ["лёгкий урок", "лёгкая задача"]
+    },
+    "хороший": {
+      "russian": "хороший",
+      "translation": "good",
+      "pos": "adjective",
+      "level": "A1",
+      "frequency": 1,
+      "category": "adjectives",
+      "examples": ["хороший день", "хорошая погода", "хорошее настроение"]
+    },
+    "плохой": {
+      "russian": "плохой",
+      "translation": "bad",
+      "pos": "adjective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "adjectives",
+      "examples": ["плохой день", "плохая погода"]
+    },
+    "холодный": {
+      "russian": "холодный",
+      "translation": "cold",
+      "pos": "adjective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "adjectives",
+      "examples": ["холодный день", "холодная вода"]
+    },
+    "тёплый": {
+      "russian": "тёплый",
+      "translation": "warm",
+      "pos": "adjective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "adjectives",
+      "examples": ["тёплый день", "тёплая погода"]
+    },
+    "горячий": {
+      "russian": "горячий",
+      "translation": "hot",
+      "pos": "adjective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "adjectives",
+      "examples": ["горячий чай", "горячая вода"]
+    },
+    "быстрый": {
+      "russian": "быстрый",
+      "translation": "fast/quick",
+      "pos": "adjective",
+      "level": "A2",
+      "frequency": 3,
+      "category": "adjectives",
+      "examples": ["быстрый поезд", "быстрая машина"]
+    },
+    "медленный": {
+      "russian": "медленный",
+      "translation": "slow",
+      "pos": "adjective",
+      "level": "A2",
+      "frequency": 3,
+      "category": "adjectives",
+      "examples": ["медленный автобус", "медленно идти"]
+    },
+    "рад": {
+      "russian": "рад",
+      "translation": "glad/happy",
+      "pos": "short adjective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "emotions",
+      "examples": ["я рад", "она рада", "они рады"],
+      "notes": "Short form only, used predicatively"
+    },
+    "счастливый": {
+      "russian": "счастливый",
+      "translation": "happy",
+      "pos": "adjective",
+      "level": "A2",
+      "frequency": 3,
+      "category": "emotions",
+      "examples": ["счастливый человек", "счастливая жизнь"]
+    },
+    "грустный": {
+      "russian": "грустный",
+      "translation": "sad",
+      "pos": "adjective",
+      "level": "A2",
+      "frequency": 3,
+      "category": "emotions",
+      "examples": ["грустный человек", "грустная история"]
+    },
+    "весёлый": {
+      "russian": "весёлый",
+      "translation": "cheerful/merry",
+      "pos": "adjective",
+      "level": "A2",
+      "frequency": 3,
+      "category": "emotions",
+      "examples": ["весёлый человек", "весёлая песня"]
+    },
+    "быть": {
+      "russian": "быть",
+      "translation": "to be",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 1,
+      "category": "verbs-common",
+      "conjugation": {
+        "present_я": "есть (omitted)",
+        "present_ты": "есть (omitted)",
+        "present_он": "есть (omitted)",
+        "past_masculine": "был",
+        "past_feminine": "была",
+        "past_neuter": "было",
+        "past_plural": "были",
+        "future_я": "буду",
+        "future_ты": "будешь",
+        "future_он": "будет",
+        "future_мы": "будем",
+        "future_вы": "будете",
+        "future_они": "будут"
+      },
+      "examples": ["Я был в Москве", "Я буду работать", "Это есть книга (omitted)"],
+      "notes": "Present tense usually omitted except 'есть' for existence"
+    },
+    "иметь": {
+      "russian": "иметь",
+      "translation": "to have",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "verbs-common",
+      "examples": ["иметь право", "иметь возможность"],
+      "notes": "Less common than 'у меня есть' construction"
+    },
+    "говорить": {
+      "russian": "говорить",
+      "translation": "to speak/talk",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 1,
+      "category": "verbs-communication",
+      "conjugation": {
+        "я": "говорю",
+        "ты": "говоришь",
+        "он": "говорит",
+        "мы": "говорим",
+        "вы": "говорите",
+        "они": "говорят"
+      },
+      "examples": ["Я говорю по-русски", "Он говорит быстро"],
+      "perfective_pair": "сказать"
+    },
+    "сказать": {
+      "russian": "сказать",
+      "translation": "to say/tell (once)",
+      "pos": "verb",
+      "aspect": "perfective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "verbs-communication",
+      "conjugation": {
+        "я": "скажу",
+        "ты": "скажешь",
+        "он": "скажет"
+      },
+      "examples": ["Я скажу правду", "Он сказал спасибо"],
+      "imperfective_pair": "говорить"
+    },
+    "спрашивать": {
+      "russian": "спрашивать",
+      "translation": "to ask (repeatedly)",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A2",
+      "frequency": 3,
+      "category": "verbs-communication",
+      "examples": ["Я часто спрашиваю", "Он спрашивает о работе"],
+      "perfective_pair": "спросить"
+    },
+    "спросить": {
+      "russian": "спросить",
+      "translation": "to ask (once)",
+      "pos": "verb",
+      "aspect": "perfective",
+      "level": "A2",
+      "frequency": 3,
+      "category": "verbs-communication",
+      "examples": ["Я спрошу его", "Она спросила меня"],
+      "imperfective_pair": "спрашивать"
+    },
+    "отвечать": {
+      "russian": "отвечать",
+      "translation": "to answer (repeatedly)",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "verbs-communication",
+      "examples": ["Я отвечаю на вопросы", "Он отвечает правильно"],
+      "perfective_pair": "ответить"
+    },
+    "ответить": {
+      "russian": "ответить",
+      "translation": "to answer (once)",
+      "pos": "verb",
+      "aspect": "perfective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "verbs-communication",
+      "examples": ["Я отвечу завтра", "Она ответила быстро"],
+      "imperfective_pair": "отвечать"
+    },
+    "звонить": {
+      "russian": "звонить",
+      "translation": "to call/phone (repeatedly)",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "verbs-communication",
+      "examples": ["Я звоню другу", "Она часто звонит"],
+      "perfective_pair": "позвонить"
+    },
+    "позвонить": {
+      "russian": "позвонить",
+      "translation": "to call/phone (once)",
+      "pos": "verb",
+      "aspect": "perfective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "verbs-communication",
+      "examples": ["Я позвоню завтра", "Он позвонил вчера"],
+      "imperfective_pair": "звонить"
+    },
+    "идти": {
+      "russian": "идти",
+      "translation": "to go (on foot, unidirectional)",
+      "pos": "verb",
+      "aspect": "indeterminate",
+      "level": "A1",
+      "frequency": 1,
+      "category": "verbs-motion",
+      "conjugation": {
+        "я": "иду",
+        "ты": "идёшь",
+        "он": "идёт",
+        "мы": "идём",
+        "вы": "идёте",
+        "они": "идут"
+      },
+      "examples": ["Я иду домой", "Он идёт в магазин", "Идёт дождь"],
+      "notes": "Unidirectional motion, present tense only",
+      "multidirectional_pair": "ходить"
+    },
+    "ходить": {
+      "russian": "ходить",
+      "translation": "to go (on foot, multidirectional)",
+      "pos": "verb",
+      "aspect": "determinate",
+      "level": "A1",
+      "frequency": 2,
+      "category": "verbs-motion",
+      "conjugation": {
+        "я": "хожу",
+        "ты": "ходишь",
+        "он": "ходит"
+      },
+      "examples": ["Я хожу в школу каждый день", "Он часто ходит в кино"],
+      "notes": "Multidirectional or repeated motion",
+      "unidirectional_pair": "идти"
+    },
+    "ехать": {
+      "russian": "ехать",
+      "translation": "to go (by vehicle, unidirectional)",
+      "pos": "verb",
+      "aspect": "indeterminate",
+      "level": "A1",
+      "frequency": 2,
+      "category": "verbs-motion",
+      "conjugation": {
+        "я": "еду",
+        "ты": "едешь",
+        "он": "едет"
+      },
+      "examples": ["Я еду на работу", "Он едет на метро"],
+      "multidirectional_pair": "ездить"
+    },
+    "ездить": {
+      "russian": "ездить",
+      "translation": "to go (by vehicle, multidirectional)",
+      "pos": "verb",
+      "aspect": "determinate",
+      "level": "A1",
+      "frequency": 2,
+      "category": "verbs-motion",
+      "conjugation": {
+        "я": "езжу",
+        "ты": "ездишь",
+        "он": "ездит"
+      },
+      "examples": ["Я езжу на работу каждый день", "Он ездит в Москву часто"],
+      "unidirectional_pair": "ехать"
+    },
+    "прийти": {
+      "russian": "прийти",
+      "translation": "to come/arrive (on foot)",
+      "pos": "verb",
+      "aspect": "perfective",
+      "level": "A2",
+      "frequency": 2,
+      "category": "verbs-motion",
+      "conjugation": {
+        "я": "приду",
+        "ты": "придёшь",
+        "он": "придёт",
+        "past_masculine": "пришёл",
+        "past_feminine": "пришла"
+      },
+      "examples": ["Я приду в 5 часов", "Он пришёл вчера"],
+      "imperfective_pair": "приходить"
+    },
+    "приходить": {
+      "russian": "приходить",
+      "translation": "to come/arrive (repeatedly)",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A2",
+      "frequency": 2,
+      "category": "verbs-motion",
+      "examples": ["Я всегда прихожу вовремя", "Он приходит каждый день"],
+      "perfective_pair": "прийти"
+    },
+    "уходить": {
+      "russian": "уходить",
+      "translation": "to leave/go away (repeatedly)",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A2",
+      "frequency": 3,
+      "category": "verbs-motion",
+      "examples": ["Я ухожу в 6 часов каждый день"],
+      "perfective_pair": "уйти"
+    },
+    "уйти": {
+      "russian": "уйти",
+      "translation": "to leave/go away (once)",
+      "pos": "verb",
+      "aspect": "perfective",
+      "level": "A2",
+      "frequency": 3,
+      "category": "verbs-motion",
+      "examples": ["Я уйду завтра", "Он ушёл час назад"],
+      "imperfective_pair": "уходить"
+    },
+    "жить": {
+      "russian": "жить",
+      "translation": "to live",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 1,
+      "category": "verbs-common",
+      "conjugation": {
+        "я": "живу",
+        "ты": "живёшь",
+        "он": "живёт",
+        "мы": "живём",
+        "вы": "живёте",
+        "они": "живут"
+      },
+      "examples": ["Я живу в Москве", "Где вы живёте?"]
+    },
+    "работать": {
+      "russian": "работать",
+      "translation": "to work",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 1,
+      "category": "verbs-common",
+      "conjugation": {
+        "я": "работаю",
+        "ты": "работаешь",
+        "он": "работает"
+      },
+      "examples": ["Я работаю в офисе", "Он работает каждый день"]
+    },
+    "учиться": {
+      "russian": "учиться",
+      "translation": "to study/learn",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 1,
+      "category": "verbs-common",
+      "conjugation": {
+        "я": "учусь",
+        "ты": "учишься",
+        "он": "учится"
+      },
+      "examples": ["Я учусь в университете", "Она учится русскому языку"],
+      "notes": "Reflexive verb"
+    },
+    "учить": {
+      "russian": "учить",
+      "translation": "to learn/teach",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "verbs-common",
+      "conjugation": {
+        "я": "учу",
+        "ты": "учишь",
+        "он": "учит"
+      },
+      "examples": ["Я учу русский язык", "Он учит студентов"],
+      "perfective_pair": "выучить"
+    },
+    "знать": {
+      "russian": "знать",
+      "translation": "to know",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 1,
+      "category": "verbs-common",
+      "conjugation": {
+        "я": "знаю",
+        "ты": "знаешь",
+        "он": "знает"
+      },
+      "examples": ["Я знаю русский язык", "Он знает ответ"],
+      "notes": "No perfective pair (stative verb)"
+    },
+    "понимать": {
+      "russian": "понимать",
+      "translation": "to understand (process)",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 1,
+      "category": "verbs-common",
+      "examples": ["Я понимаю по-русски", "Вы понимаете?"],
+      "perfective_pair": "понять"
+    },
+    "понять": {
+      "russian": "понять",
+      "translation": "to understand (result)",
+      "pos": "verb",
+      "aspect": "perfective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "verbs-common",
+      "examples": ["Я понял!", "Она поняла вопрос"],
+      "imperfective_pair": "понимать"
+    },
+    "делать": {
+      "russian": "делать",
+      "translation": "to do/make (process)",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 1,
+      "category": "verbs-common",
+      "conjugation": {
+        "я": "делаю",
+        "ты": "делаешь",
+        "он": "делает"
+      },
+      "examples": ["Что вы делаете?", "Я делаю уроки"],
+      "perfective_pair": "сделать"
+    },
+    "сделать": {
+      "russian": "сделать",
+      "translation": "to do/make (result)",
+      "pos": "verb",
+      "aspect": "perfective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "verbs-common",
+      "examples": ["Я сделаю это завтра", "Он сделал работу"],
+      "imperfective_pair": "делать"
+    },
+    "читать": {
+      "russian": "читать",
+      "translation": "to read (process)",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "activities",
+      "conjugation": {
+        "я": "читаю",
+        "ты": "читаешь",
+        "он": "читает"
+      },
+      "examples": ["Я читаю книгу", "Он читает каждый день"],
+      "perfective_pair": "прочитать"
+    },
+    "прочитать": {
+      "russian": "прочитать",
+      "translation": "to read (complete)",
+      "pos": "verb",
+      "aspect": "perfective",
+      "level": "A2",
+      "frequency": 3,
+      "category": "activities",
+      "examples": ["Я прочитал книгу", "Она прочитает статью"],
+      "imperfective_pair": "читать"
+    },
+    "писать": {
+      "russian": "писать",
+      "translation": "to write (process)",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "activities",
+      "conjugation": {
+        "я": "пишу",
+        "ты": "пишешь",
+        "он": "пишет"
+      },
+      "examples": ["Я пишу письмо", "Он пишет книгу"],
+      "perfective_pair": "написать"
+    },
+    "написать": {
+      "russian": "написать",
+      "translation": "to write (complete)",
+      "pos": "verb",
+      "aspect": "perfective",
+      "level": "A2",
+      "frequency": 3,
+      "category": "activities",
+      "examples": ["Я написал письмо", "Она напишет статью"],
+      "imperfective_pair": "писать"
+    },
+    "смотреть": {
+      "russian": "смотреть",
+      "translation": "to watch/look (process)",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "activities",
+      "conjugation": {
+        "я": "смотрю",
+        "ты": "смотришь",
+        "он": "смотрит"
+      },
+      "examples": ["Я смотрю телевизор", "Он смотрит фильм"],
+      "perfective_pair": "посмотреть"
+    },
+    "посмотреть": {
+      "russian": "посмотреть",
+      "translation": "to watch/look (complete)",
+      "pos": "verb",
+      "aspect": "perfective",
+      "level": "A2",
+      "frequency": 3,
+      "category": "activities",
+      "examples": ["Я посмотрю фильм", "Он посмотрел на меня"],
+      "imperfective_pair": "смотреть"
+    },
+    "слушать": {
+      "russian": "слушать",
+      "translation": "to listen (process)",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "activities",
+      "examples": ["Я слушаю музыку", "Он слушает радио"],
+      "perfective_pair": "послушать"
+    },
+    "слышать": {
+      "russian": "слышать",
+      "translation": "to hear",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A2",
+      "frequency": 3,
+      "category": "activities",
+      "conjugation": {
+        "я": "слышу",
+        "ты": "слышишь",
+        "он": "слышит"
+      },
+      "examples": ["Я слышу музыку", "Вы слышите меня?"],
+      "perfective_pair": "услышать"
+    },
+    "есть": {
+      "russian": "есть",
+      "translation": "to eat",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "activities",
+      "conjugation": {
+        "я": "ем",
+        "ты": "ешь",
+        "он": "ест",
+        "мы": "едим",
+        "вы": "едите",
+        "они": "едят"
+      },
+      "examples": ["Я ем завтрак", "Он ест суп"],
+      "perfective_pair": "съесть",
+      "notes": "Irregular conjugation"
+    },
+    "пить": {
+      "russian": "пить",
+      "translation": "to drink",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "activities",
+      "conjugation": {
+        "я": "пью",
+        "ты": "пьёшь",
+        "он": "пьёт"
+      },
+      "examples": ["Я пью кофе", "Он пьёт воду"],
+      "perfective_pair": "выпить"
+    },
+    "спать": {
+      "russian": "спать",
+      "translation": "to sleep",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "activities",
+      "conjugation": {
+        "я": "сплю",
+        "ты": "спишь",
+        "он": "спит"
+      },
+      "examples": ["Я сплю 8 часов", "Он спит"],
+      "perfective_pair": "поспать"
+    },
+    "вставать": {
+      "russian": "вставать",
+      "translation": "to get up (process)",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A2",
+      "frequency": 3,
+      "category": "activities",
+      "examples": ["Я встаю в 7 часов", "Он встаёт рано"],
+      "perfective_pair": "встать"
+    },
+    "встать": {
+      "russian": "встать",
+      "translation": "to get up (once)",
+      "pos": "verb",
+      "aspect": "perfective",
+      "level": "A2",
+      "frequency": 3,
+      "category": "activities",
+      "examples": ["Я встану завтра рано", "Он встал в 6 часов"],
+      "imperfective_pair": "вставать"
+    },
+    "покупать": {
+      "russian": "покупать",
+      "translation": "to buy (process)",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "activities",
+      "examples": ["Я часто покупаю хлеб", "Он покупает продукты"],
+      "perfective_pair": "купить"
+    },
+    "купить": {
+      "russian": "купить",
+      "translation": "to buy (once)",
+      "pos": "verb",
+      "aspect": "perfective",
+      "level": "A1",
+      "frequency": 2,
+      "category": "activities",
+      "conjugation": {
+        "я": "куплю",
+        "ты": "купишь",
+        "он": "купит"
+      },
+      "examples": ["Я куплю хлеб", "Он купил машину"],
+      "imperfective_pair": "покупать"
+    },
+    "продавать": {
+      "russian": "продавать",
+      "translation": "to sell (process)",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A2",
+      "frequency": 3,
+      "category": "activities",
+      "examples": ["Он продаёт машины", "Магазин продаёт книги"],
+      "perfective_pair": "продать"
+    },
+    "любить": {
+      "russian": "любить",
+      "translation": "to love/like",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 1,
+      "category": "emotions",
+      "conjugation": {
+        "я": "люблю",
+        "ты": "любишь",
+        "он": "любит"
+      },
+      "examples": ["Я люблю музыку", "Он любит читать"],
+      "notes": "No perfective pair (stative verb)"
+    },
+    "хотеть": {
+      "russian": "хотеть",
+      "translation": "to want",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 1,
+      "category": "emotions",
+      "conjugation": {
+        "я": "хочу",
+        "ты": "хочешь",
+        "он": "хочет",
+        "мы": "хотим",
+        "вы": "хотите",
+        "они": "хотят"
+      },
+      "examples": ["Я хочу есть", "Он хочет спать"],
+      "notes": "Irregular conjugation, no perfective pair"
+    },
+    "мочь": {
+      "russian": "мочь",
+      "translation": "can/to be able",
+      "pos": "verb",
+      "aspect": "imperfective",
+      "level": "A1",
+      "frequency": 1,
+      "category": "verbs-common",
+      "conjugation": {
+        "я": "могу",
+        "ты": "можешь",
+        "он": "может",
+        "мы": "можем",
+        "вы": "можете",
+        "они": "могут"
+      },
+      "examples": ["Я могу говорить по-русски", "Он не может прийти"],
+      "perfective_pair": "смочь"
+    },
+    "нужно": {
+      "russian": "нужно",
+      "translation": "necessary/need",
+      "pos": "predicate",
+      "level": "A1",
+      "frequency": 1,
+      "category": "verbs-common",
+      "examples": ["Мне нужно идти", "Нужно работать"],
+      "notes": "Impersonal construction with dative"
+    },
+    "надо": {
+      "russian": "надо",
+      "translation": "necessary/must",
+      "pos": "predicate",
+      "level": "A1",
+      "frequency": 1,
+      "category": "verbs-common",
+      "examples": ["Мне надо идти", "Надо учиться"],
+      "notes": "Synonymous with нужно"
+    },
+    "можно": {
+      "russian": "можно",
+      "translation": "possible/may/can",
+      "pos": "predicate",
+      "level": "A1",
+      "frequency": 1,
+      "category": "verbs-common",
+      "examples": ["Можно войти?", "Здесь можно курить?"],
+      "notes": "Impersonal construction"
+    },
+    "нельзя": {
+      "russian": "нельзя",
+      "translation": "impossible/mustn't",
+      "pos": "predicate",
+      "level": "A1",
+      "frequency": 2,
+      "category": "verbs-common",
+      "examples": ["Здесь нельзя курить", "Нельзя опаздывать"],
+      "notes": "Impersonal prohibition"
+    },
+    "и": {
+      "russian": "и",
+      "translation": "and",
+      "pos": "conjunction",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["хлеб и молоко", "я и ты"]
+    },
+    "а": {
+      "russian": "а",
+      "translation": "and/but/whereas",
+      "pos": "conjunction",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["Я студент, а он учитель", "А вы?"],
+      "notes": "Contrasting conjunction"
+    },
+    "но": {
+      "russian": "но",
+      "translation": "but",
+      "pos": "conjunction",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["Я хочу, но не могу", "Это трудно, но интересно"]
+    },
+    "или": {
+      "russian": "или",
+      "translation": "or",
+      "pos": "conjunction",
+      "level": "A1",
+      "frequency": 2,
+      "category": "pronouns",
+      "examples": ["чай или кофе?", "сегодня или завтра?"]
+    },
+    "потому что": {
+      "russian": "потому что",
+      "translation": "because",
+      "pos": "conjunction",
+      "level": "A2",
+      "frequency": 2,
+      "category": "pronouns",
+      "examples": ["Я учу русский, потому что это интересно"],
+      "notes": "Two-word conjunction"
+    },
+    "если": {
+      "russian": "если",
+      "translation": "if",
+      "pos": "conjunction",
+      "level": "A2",
+      "frequency": 3,
+      "category": "pronouns",
+      "examples": ["Если хочешь, можешь прийти", "Если будет время, я приду"]
+    },
+    "чтобы": {
+      "russian": "чтобы",
+      "translation": "in order to/so that",
+      "pos": "conjunction",
+      "level": "A2",
+      "frequency": 3,
+      "category": "pronouns",
+      "examples": ["Я учусь, чтобы работать", "Скажи, чтобы он пришёл"],
+      "notes": "Takes past tense after it"
+    },
+    "в": {
+      "russian": "в",
+      "translation": "in/into/at (+ prepositional/accusative)",
+      "pos": "preposition",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["в городе (prepositional)", "в город (accusative)", "в понедельник"],
+      "notes": "Prepositional for location, accusative for direction"
+    },
+    "на": {
+      "russian": "на",
+      "translation": "on/at/to (+ prepositional/accusative)",
+      "pos": "preposition",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["на столе (prepositional)", "на стол (accusative)", "на работе"],
+      "notes": "Prepositional for location, accusative for direction"
+    },
+    "у": {
+      "russian": "у",
+      "translation": "at/by/near (+ genitive)",
+      "pos": "preposition",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["у меня есть", "у друга", "у окна"],
+      "notes": "Possession and location 'at/near'"
+    },
+    "с": {
+      "russian": "с",
+      "translation": "with/from (+ instrumental/genitive)",
+      "pos": "preposition",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["с другом (instrumental)", "с работы (genitive)", "с утра"],
+      "notes": "Instrumental for 'with', genitive for 'from'"
+    },
+    "к": {
+      "russian": "к",
+      "translation": "to/toward (+ dative)",
+      "pos": "preposition",
+      "level": "A2",
+      "frequency": 2,
+      "category": "pronouns",
+      "examples": ["к другу", "к врачу", "к вечеру"],
+      "notes": "Motion toward a person"
+    },
+    "из": {
+      "russian": "из",
+      "translation": "from/out of (+ genitive)",
+      "pos": "preposition",
+      "level": "A1",
+      "frequency": 2,
+      "category": "pronouns",
+      "examples": ["из города", "из дома", "из России"],
+      "notes": "Opposite of 'в'"
+    },
+    "о": {
+      "russian": "о",
+      "translation": "about (+ prepositional)",
+      "pos": "preposition",
+      "level": "A1",
+      "frequency": 2,
+      "category": "pronouns",
+      "examples": ["говорить о работе", "думать о жизни"],
+      "notes": "Becomes 'об' before vowels"
+    },
+    "для": {
+      "russian": "для",
+      "translation": "for (+ genitive)",
+      "pos": "preposition",
+      "level": "A2",
+      "frequency": 3,
+      "category": "pronouns",
+      "examples": ["для меня", "книга для детей"],
+      "notes": "Purpose or recipient"
+    },
+    "без": {
+      "russian": "без",
+      "translation": "without (+ genitive)",
+      "pos": "preposition",
+      "level": "A2",
+      "frequency": 3,
+      "category": "pronouns",
+      "examples": ["без сахара", "без денег"]
+    },
+    "после": {
+      "russian": "после",
+      "translation": "after (+ genitive)",
+      "pos": "preposition",
+      "level": "A2",
+      "frequency": 3,
+      "category": "time",
+      "examples": ["после работы", "после обеда"]
+    },
+    "перед": {
+      "russian": "перед",
+      "translation": "before/in front of (+ instrumental)",
+      "pos": "preposition",
+      "level": "A2",
+      "frequency": 3,
+      "category": "pronouns",
+      "examples": ["перед домом", "перед экзаменом"]
+    },
+    "через": {
+      "russian": "через",
+      "translation": "through/in (time) (+ accusative)",
+      "pos": "preposition",
+      "level": "A2",
+      "frequency": 3,
+      "category": "time",
+      "examples": ["через неделю", "через час", "через город"]
+    },
+    "да": {
+      "russian": "да",
+      "translation": "yes",
+      "pos": "particle",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["Да, конечно", "Да, я понимаю"]
+    },
+    "нет": {
+      "russian": "нет",
+      "translation": "no/there isn't",
+      "pos": "particle",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["Нет, спасибо", "У меня нет времени"],
+      "notes": "Also used for negation of existence (+ genitive)"
+    },
+    "не": {
+      "russian": "не",
+      "translation": "not",
+      "pos": "particle",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["Я не знаю", "Это не книга"]
+    },
+    "очень": {
+      "russian": "очень",
+      "translation": "very",
+      "pos": "adverb",
+      "level": "A1",
+      "frequency": 1,
+      "category": "adjectives",
+      "examples": ["очень хорошо", "очень красивый"]
+    },
+    "много": {
+      "russian": "много",
+      "translation": "many/much/a lot",
+      "pos": "adverb",
+      "level": "A1",
+      "frequency": 2,
+      "category": "adjectives",
+      "examples": ["много людей", "много времени"],
+      "notes": "Takes genitive plural"
+    },
+    "мало": {
+      "russian": "мало",
+      "translation": "few/little/not enough",
+      "pos": "adverb",
+      "level": "A2",
+      "frequency": 3,
+      "category": "adjectives",
+      "examples": ["мало денег", "мало времени"],
+      "notes": "Takes genitive plural"
+    },
+    "несколько": {
+      "russian": "несколько",
+      "translation": "several/a few",
+      "pos": "numeral",
+      "level": "A2",
+      "frequency": 3,
+      "category": "numbers",
+      "examples": ["несколько дней", "несколько человек"],
+      "notes": "Takes genitive plural"
+    },
+    "всё": {
+      "russian": "всё",
+      "translation": "everything/all",
+      "pos": "pronoun",
+      "level": "A1",
+      "frequency": 2,
+      "category": "pronouns",
+      "examples": ["Всё хорошо", "Это всё"]
+    },
+    "всегда": {
+      "russian": "всегда",
+      "translation": "always",
+      "pos": "adverb",
+      "level": "A1",
+      "frequency": 2,
+      "category": "time",
+      "examples": ["Я всегда работаю", "Он всегда рад"]
+    },
+    "никогда": {
+      "russian": "никогда",
+      "translation": "never",
+      "pos": "adverb",
+      "level": "A1",
+      "frequency": 2,
+      "category": "time",
+      "examples": ["Я никогда не был в Москве", "Он никогда не опаздывает"],
+      "notes": "Requires 'не' with verb (double negation)"
+    },
+    "часто": {
+      "russian": "часто",
+      "translation": "often",
+      "pos": "adverb",
+      "level": "A1",
+      "frequency": 2,
+      "category": "time",
+      "examples": ["Я часто хожу в кино", "Он часто звонит"]
+    },
+    "иногда": {
+      "russian": "иногда",
+      "translation": "sometimes",
+      "pos": "adverb",
+      "level": "A2",
+      "frequency": 3,
+      "category": "time",
+      "examples": ["Я иногда опаздываю", "Иногда идёт дождь"]
+    },
+    "редко": {
+      "russian": "редко",
+      "translation": "rarely/seldom",
+      "pos": "adverb",
+      "level": "A2",
+      "frequency": 3,
+      "category": "time",
+      "examples": ["Я редко смотрю телевизор", "Он редко приходит"]
+    },
+    "уже": {
+      "russian": "уже",
+      "translation": "already",
+      "pos": "adverb",
+      "level": "A1",
+      "frequency": 2,
+      "category": "time",
+      "examples": ["Я уже знаю", "Он уже пришёл"]
+    },
+    "ещё": {
+      "russian": "ещё",
+      "translation": "still/yet/more",
+      "pos": "adverb",
+      "level": "A1",
+      "frequency": 2,
+      "category": "time",
+      "examples": ["Он ещё спит", "Ещё один", "Ещё не пришёл"]
+    },
+    "только": {
+      "russian": "только",
+      "translation": "only/just",
+      "pos": "adverb",
+      "level": "A1",
+      "frequency": 2,
+      "category": "adjectives",
+      "examples": ["Только я", "Я только начал"]
+    },
+    "тоже": {
+      "russian": "тоже",
+      "translation": "also/too",
+      "pos": "adverb",
+      "level": "A1",
+      "frequency": 2,
+      "category": "adjectives",
+      "examples": ["Я тоже студент", "Он тоже работает"]
+    },
+    "также": {
+      "russian": "также",
+      "translation": "also/as well",
+      "pos": "adverb",
+      "level": "A2",
+      "frequency": 3,
+      "category": "adjectives",
+      "examples": ["Он также работает здесь"],
+      "notes": "More formal than тоже"
+    },
+    "конечно": {
+      "russian": "конечно",
+      "translation": "of course/certainly",
+      "pos": "adverb",
+      "level": "A1",
+      "frequency": 2,
+      "category": "adjectives",
+      "examples": ["Конечно, да!", "Это конечно важно"]
+    },
+    "может быть": {
+      "russian": "может быть",
+      "translation": "maybe/perhaps",
+      "pos": "phrase",
+      "level": "A2",
+      "frequency": 3,
+      "category": "adjectives",
+      "examples": ["Может быть, он придёт", "Может быть, завтра"]
+    },
+    "наверное": {
+      "russian": "наверное",
+      "translation": "probably",
+      "pos": "adverb",
+      "level": "A2",
+      "frequency": 3,
+      "category": "adjectives",
+      "examples": ["Он наверное дома", "Наверное, будет дождь"]
+    },
+    "правда": {
+      "russian": "правда",
+      "translation": "truth/really",
+      "pos": "noun/adverb",
+      "level": "A2",
+      "frequency": 3,
+      "category": "adjectives",
+      "examples": ["Это правда?", "Правда интересно"]
+    },
+    "спасибо": {
+      "russian": "спасибо",
+      "translation": "thank you",
+      "pos": "interjection",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["Спасибо большое!", "Спасибо за помощь"]
+    },
+    "пожалуйста": {
+      "russian": "пожалуйста",
+      "translation": "please/you're welcome",
+      "pos": "interjection",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["Пожалуйста, помогите", "- Спасибо! - Пожалуйста!"]
+    },
+    "извините": {
+      "russian": "извините",
+      "translation": "excuse me/sorry (formal)",
+      "pos": "verb imperative",
+      "level": "A1",
+      "frequency": 2,
+      "category": "pronouns",
+      "examples": ["Извините, пожалуйста", "Извините за опоздание"]
+    },
+    "простите": {
+      "russian": "простите",
+      "translation": "excuse me/sorry (formal)",
+      "pos": "verb imperative",
+      "level": "A1",
+      "frequency": 2,
+      "category": "pronouns",
+      "examples": ["Простите, вы не знаете...?"]
+    },
+    "здравствуйте": {
+      "russian": "здравствуйте",
+      "translation": "hello (formal)",
+      "pos": "interjection",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["Здравствуйте! Как дела?"]
+    },
+    "привет": {
+      "russian": "привет",
+      "translation": "hi (informal)",
+      "pos": "interjection",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["Привет! Как дела?"]
+    },
+    "до свидания": {
+      "russian": "до свидания",
+      "translation": "goodbye",
+      "pos": "phrase",
+      "level": "A1",
+      "frequency": 1,
+      "category": "pronouns",
+      "examples": ["До свидания! До встречи!"]
+    },
+    "пока": {
+      "russian": "пока",
+      "translation": "bye (informal)",
+      "pos": "interjection",
+      "level": "A1",
+      "frequency": 2,
+      "category": "pronouns",
+      "examples": ["Пока! Увидимся!"]
+    },
+    "имя": {
+      "russian": "имя",
+      "translation": "name/first name",
+      "pos": "noun",
+      "gender": "neuter",
+      "level": "A1",
+      "frequency": 2,
+      "category": "people",
+      "examples": ["Как ваше имя?", "Моё имя Иван"],
+      "notes": "Irregular declension"
+    },
+    "фамилия": {
+      "russian": "фамилия",
+      "translation": "surname/last name",
+      "pos": "noun",
+      "gender": "feminine",
+      "level": "A1",
+      "frequency": 2,
+      "category": "people",
+      "examples": ["Как ваша фамилия?", "Моя фамилия Петров"]
+    }
+  }
+}
