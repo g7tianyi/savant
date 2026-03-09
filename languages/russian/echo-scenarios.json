@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "language": "russian",
+    "total_scenarios": 10,
+    "levels": ["A2", "B1"],
+    "topics": ["daily-life", "travel", "social", "dating"]
+  },
+  "scenarios": {
+    "cafe-order": {
+      "id": "cafe-order",
+      "title": "Ordering at a Café",
+      "level": "A2",
+      "tags": ["daily-life"],
+      "seed_phrase": "Мне, пожа́луйста, ко́фе с молоко́м.",
+      "seed_meaning": "Literally: To me, please, coffee with milk. Natural: I'll have a coffee with milk, please.",
+      "substitutions": [
+        "Мне, пожа́луйста, чай с лимо́ном.",
+        "Мне, пожа́луйста, сок без са́хара.",
+        "Мне, пожа́луйста, во́ду с га́зом."
+      ],
+      "vocabulary": [
+        "пожа́луйста — please",
+        "ко́фе — coffee",
+        "молоко́ — milk",
+        "чай — tea"
+      ]
+    },
+    "asking-directions": {
+      "id": "asking-directions",
+      "title": "Asking for Directions",
+      "level": "A2",
+      "tags": ["travel"],
+      "seed_phrase": "Извини́те, как пройти́ до метро́?",
+      "seed_meaning": "Literally: Excuse me, how to get to the metro? Natural: Excuse me, how do I get to the metro?",
+      "substitutions": [
+        "Извини́те, как пройти́ до авто́бусной остано́вки?",
+        "Извини́те, как пройти́ до центра́льного ры́нка?",
+        "Извини́те, как пройти́ до бли́жайшей апте́ки?"
+      ],
+      "vocabulary": [
+        "извини́те — excuse me (formal)",
+        "пройти́ — to get to / to walk to",
+        "метро́ — metro / subway",
+        "остано́вка — stop (bus/tram)"
+      ]
+    },
+    "compliment": {
+      "id": "compliment",
+      "title": "Giving a Compliment",
+      "level": "A2",
+      "tags": ["social", "dating"],
+      "seed_phrase": "Ты о́чень краси́во вы́глядишь сего́дня.",
+      "seed_meaning": "Literally: You very beautifully look today. Natural: You look really great today.",
+      "substitutions": [
+        "Ты о́чень хорошо́ говори́шь по-ру́сски.",
+        "Ты о́чень интере́сно расска́зываешь.",
+        "Ты о́чень здо́рово та́нцуешь."
+      ],
+      "vocabulary": [
+        "о́чень — very",
+        "краси́во — beautifully",
+        "выгля́деть — to look (appearance)",
+        "сего́дня — today"
+      ]
+    },
+    "restaurant-order": {
+      "id": "restaurant-order",
+      "title": "Ordering at a Restaurant",
+      "level": "A2",
+      "tags": ["daily-life", "travel"],
+      "seed_phrase": "Я бы хоте́л зака́зать борщ и хлеб.",
+      "seed_meaning": "Literally: I would like to order borscht and bread. Natural: I'd like to order borscht and bread.",
+      "substitutions": [
+        "Я бы хоте́ла зака́зать са́лат и суп.",
+        "Я бы хоте́л зака́зать пи́ццу без мя́са.",
+        "Я бы хоте́л зака́зать ры́бу с карто́фелем."
+      ],
+      "vocabulary": [
+        "зака́зать — to order",
+        "борщ — borscht (beet soup)",
+        "хлеб — bread",
+        "мя́со — meat"
+      ]
+    },
+    "phone-number": {
+      "id": "phone-number",
+      "title": "Exchanging Phone Numbers",
+      "level": "A2",
+      "tags": ["social", "dating"],
+      "seed_phrase": "Мо́жно взять твой но́мер телефо́на?",
+      "seed_meaning": "Literally: Is it possible to take your phone number? Natural: Can I get your phone number?",
+      "substitutions": [
+        "Мо́жно взять твой адрес в инстагра́м?",
+        "Мо́жно оста́вить тебе́ свой но́мер?",
+        "Мо́жно написа́ть тебе́ в телегра́м?"
+      ],
+      "vocabulary": [
+        "мо́жно — may I / is it possible",
+        "взять — to take",
+        "но́мер — number",
+        "телефо́н — phone"
+      ]
+    },
+    "making-plans": {
+      "id": "making-plans",
+      "title": "Making Plans to Meet",
+      "level": "A2",
+      "tags": ["social", "dating"],
+      "seed_phrase": "Ты свобо́ден в пя́тницу ве́чером?",
+      "seed_meaning": "Literally: Are you free on Friday evening? Natural: Are you free Friday evening?",
+      "substitutions": [
+        "Ты свобо́дна в суббо́ту днём?",
+        "Ты свобо́ден в воскресе́нье у́тром?",
+        "Ты свобо́дна за́втра по́сле рабо́ты?"
+      ],
+      "vocabulary": [
+        "свобо́ден / свобо́дна — free (m/f)",
+        "пя́тница — Friday",
+        "ве́чером — in the evening",
+        "за́втра — tomorrow"
+      ]
+    },
+    "airport-checkin": {
+      "id": "airport-checkin",
+      "title": "Checking In at the Airport",
+      "level": "A2",
+      "tags": ["travel"],
+      "seed_phrase": "Я хочу́ зарегистри́роваться на рейс в Москву́.",
+      "seed_meaning": "Literally: I want to check in for the flight to Moscow. Natural: I'd like to check in for my flight to Moscow.",
+      "substitutions": [
+        "Я хочу́ зарегистри́роваться на рейс в Санкт-Петербу́рг.",
+        "Я хочу́ поменя́ть ме́сто на бо́лее удо́бное.",
+        "Я хочу́ сдать чемода́н в бага́ж."
+      ],
+      "vocabulary": [
+        "рейс — flight",
+        "зарегистри́роваться — to check in",
+        "ме́сто — seat / place",
+        "бага́ж — luggage"
+      ]
+    },
+    "hotel-checkin": {
+      "id": "hotel-checkin",
+      "title": "Checking In at a Hotel",
+      "level": "B1",
+      "tags": ["travel"],
+      "seed_phrase": "У меня́ забронирован но́мер на две но́чи на фами́лию Смирно́в.",
+      "seed_meaning": "Literally: I have a room reserved for two nights under the surname Smirnov. Natural: I have a reservation for two nights under the name Smirnov.",
+      "substitutions": [
+        "У меня́ забронирован но́мер на три но́чи на фами́лию Ива́нов.",
+        "У меня́ забронирован но́мер с за́втраком на одну́ ночь.",
+        "У меня́ забронирован лю́кс на пять ноче́й."
+      ],
+      "vocabulary": [
+        "забронирован — reserved / booked",
+        "но́мер — room (hotel)",
+        "фами́лия — surname / last name",
+        "за́втрак — breakfast"
+      ]
+    },
+    "self-introduction": {
+      "id": "self-introduction",
+      "title": "Introducing Yourself",
+      "level": "B1",
+      "tags": ["social"],
+      "seed_phrase": "Приятно познако́миться. Я рабо́таю програ́ммистом уже́ пять лет.",
+      "seed_meaning": "Literally: Nice to meet you. I work as a programmer already five years. Natural: Nice to meet you. I've been working as a programmer for five years.",
+      "substitutions": [
+        "Приятно познако́миться. Я рабо́таю врачо́м уже́ де́сять лет.",
+        "Приятно познако́миться. Я изуча́ю ру́сский язы́к уже́ два го́да.",
+        "Приятно познако́миться. Я живу́ в Москве́ уже́ три го́да."
+      ],
+      "vocabulary": [
+        "познако́миться — to get acquainted / meet",
+        "рабо́тать — to work",
+        "уже́ — already",
+        "лет / го́да — years (genitive forms)"
+      ]
+    },
+    "expressing-interest": {
+      "id": "expressing-interest",
+      "title": "Expressing Romantic Interest",
+      "level": "B1",
+      "tags": ["dating", "social"],
+      "seed_phrase": "Ты мне о́чень нра́вишься, и я хоте́л бы узна́ть тебя́ лу́чше.",
+      "seed_meaning": "Literally: You please me very much, and I would like to get to know you better. Natural: I really like you, and I'd love to get to know you better.",
+      "substitutions": [
+        "Ты мне о́чень нра́вишься, и я хоте́л бы встре́титься сно́ва.",
+        "Ты мне о́чень нра́вишься, и я хоте́л бы пойти́ с тобо́й на конце́рт.",
+        "Ты мне о́чень нра́вишься, и я хоте́л бы провести́ с тобо́й ве́чер."
+      ],
+      "vocabulary": [
+        "нра́виться — to like (lit. to please)",
+        "узна́ть — to get to know / find out",
+        "лу́чше — better",
+        "встре́титься — to meet up"
+      ]
+    }
+  }
+}
