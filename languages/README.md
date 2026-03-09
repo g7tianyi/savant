@@ -70,7 +70,8 @@ Open `.claude/skills/korean-learning.md` and update:
 ### 6. Test the new pack
 
 ```bash
-python3 .claude/skills/russian-learning/scripts/state_manager.py init-session 5 --lang korean
+python3 scripts/state_manager.py init-session korean words 5
+python3 scripts/state_manager.py init-session korean echo
 ```
 
 Then invoke from Claude Code:
@@ -331,10 +332,9 @@ EOF
 ### 3. Initialize a session
 
 ```bash
-python3 .claude/skills/russian-learning/scripts/state_manager.py init-session 5
+python3 scripts/state_manager.py init-session korean words 5
+python3 scripts/state_manager.py init-session korean echo
 ```
-
-(If the state manager has been extended to accept `--lang`, pass `--lang korean`. Otherwise copy and adapt the script for the new language first.)
 
 ### 4. Run an interactive session
 
