@@ -1,35 +1,26 @@
 # Savant
 
-Savant is a multi-language, multi-mode learning plugin for Claude Code that conducts research-backed vocabulary and conversational sessions using spaced repetition and adaptive dialogue.
+Multi-language language learning plugin for Claude Code. Spaced repetition vocabulary and FSI conversational sessions — no servers, no subscriptions, everything local.
 
 ## Installation
 
-Install as a Claude Code plugin by referencing `plugin.yaml` in this repository:
-
-```bash
-# Local install (from repo root)
-claude plugin install .
-
-# Or via registry (once published)
-claude plugin install @savant-contributors/savant
+```
+/plugin marketplace add g7tianyi/savant
+/plugin install savant@g7tianyi/savant
 ```
 
 ## Usage
 
-```bash
-# Spaced repetition vocabulary session
-/savant russian words
-
-# FSI conversational immersion session
-/savant russian echo
+```
+/savant russian words    — spaced repetition vocabulary + grammar session
+/savant russian echo     — FSI conversational session (phrase → echo → drills → roleplay)
 ```
 
-- `/savant russian words` — Vocabulary review using SM-2 spaced repetition; tests recall and tracks mastery per word.
-- `/savant russian echo` — FSI-style conversational session that drills grammar and listening through natural dialogue.
+Your progress is saved locally at `~/.claude/savant/`.
 
 ## Adding a language
 
-Copy an existing language folder and update its data files. See [languages/README.md](languages/README.md) for details.
+See [languages/README.md](languages/README.md) — add three JSON files, no code changes needed.
 
 ## Development
 
