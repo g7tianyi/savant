@@ -22,7 +22,7 @@
         "пожа́луйста — please",
         "ко́фе — coffee",
         "молоко́ — milk",
-        "чай — tea"
+        "ча́й — tea"
       ]
     },
     "asking-directions": {
@@ -77,8 +77,8 @@
       ],
       "vocabulary": [
         "зака́зать — to order",
-        "борщ — borscht (beet soup)",
-        "хлеб — bread",
+        "бо́рщ — borscht (beet soup)",
+        "хле́б — bread",
         "мя́со — meat"
       ]
     },
@@ -96,7 +96,7 @@
       ],
       "vocabulary": [
         "мо́жно — may I / is it possible",
-        "взять — to take",
+        "взя́ть — to take",
         "но́мер — number",
         "телефо́н — phone"
       ]
@@ -133,7 +133,7 @@
         "Я хочу́ сдать чемода́н в бага́ж."
       ],
       "vocabulary": [
-        "рейс — flight",
+        "ре́йс — flight",
         "зарегистри́роваться — to check in",
         "ме́сто — seat / place",
         "бага́ж — luggage"
@@ -152,7 +152,7 @@
         "У меня́ забронирован лю́кс на пять ноче́й."
       ],
       "vocabulary": [
-        "забронирован — reserved / booked",
+        "заброни́рован — reserved / booked",
         "но́мер — room (hotel)",
         "фами́лия — surname / last name",
         "за́втрак — breakfast"
