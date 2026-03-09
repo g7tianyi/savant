@@ -1,0 +1,20 @@
+name: savant
+version: 0.1.0
+description: >
+  Multi-language, multi-mode language learning plugin for Claude Code.
+  Supports spaced repetition vocabulary (words mode) and FSI conversational
+  training (echo mode). Ships with Russian; extensible to any language.
+
+skills:
+  - name: savant
+    file: skills/savant.md
+    description: >
+      Language learning session. Usage: /savant {language} {mode}
+      Modes: words (spaced repetition), echo (FSI conversational)
+    triggers:
+      - "savant"
+      - "learn language"
+      - "language practice"
+
+author: savant-contributors
+license: MIT
