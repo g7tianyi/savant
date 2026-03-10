@@ -1,0 +1,17 @@
+{
+  "name": "savant",
+  "version": "0.1.0",
+  "description": "Multi-language language learning plugin for Claude Code. Spaced repetition vocabulary (words mode) and FSI conversational training (echo mode). Ships with Russian; extensible to any language.",
+  "author": {
+    "name": "g7tianyi"
+  },
+  "repository": "https://github.com/g7tianyi/savant",
+  "license": "MIT",
+  "keywords": [
+    "language-learning",
+    "russian",
+    "spaced-repetition",
+    "fsi",
+    "echo"
+  ]
+}
