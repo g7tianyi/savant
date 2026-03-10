@@ -1,3 +1,8 @@
+---
+name: savant
+description: "Language learning tutor. Use when the user invokes /savant {language} {mode} — e.g. /savant russian words, /savant russian echo. Runs spaced repetition vocabulary sessions (words) or FSI conversational drills (echo)."
+---
+
 # Savant — Language Learning Skill
 
 > **Note for Claude:** Throughout this skill, `{PLUGIN_DIR}` refers to the root of the Savant plugin repository (the directory containing `skills/`, `scripts/`, and `languages/`). Resolve it once at session start.
